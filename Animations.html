@@ -5,33 +5,43 @@
 		<title>Animation testing</title>
 		<meta name="robots" content="index, follow">
 		<meta name="description" content="Just a test for the animations">
-		<!--[if lt IE 9]>
+		<!--[if lt IE 11]>
     	   <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<[endif]-->
 		<link rel="shortcut icon" href=".png">
 		<link rel="stylesheet" type="text/css" href="bubble.css">
+		<script src="AB.js"></script>
 	</head>
 	<body>
-		<div id="pos">
-			<div id="mainpos" class="clearfix">
-				<div id="mainbubble" class="bobing">
-					<div id="maintext">
-						<a href="http://www.lesquishy.freewebhost.co.nz">Site Test</a>
-					</div>
+		<div id="screenwarn">
+			Your Screen size is less than 960px in width. All Animations have stopped. For optimal quality go to a bigger screen
+		</div>
+		<button onclick="thing()">Try it</button>
+		<div id="mainpos">
+			<div id="mainbubble" class="bobing">
+				<div id="maintext">
+					<a href="http://www.lesquishy.freewebhost.co.nz"><p id="address"></p></a>
 				</div>
 			</div>
-			<div id="sportpos">
-				<div id="sportbubble" class="sportbob">
-					<div id="sporttext">
-						<a href="http://www.kamakaze0001.freewebhost.co.nz">Sports</a>
-					</div>
+		</div>
+		<div id="sportpos">
+			<div id="sportbubble" class="sportbob">
+				<div id="sporttext">
+					<a href="http://www.kamakaze0001.freewebhost.co.nz">Sports</a>
 				</div>
 			</div>
-			<div id="logpos">
-				<div id="logbubble" class="logbob">
-					<div id="logtext">
-						<a href="http://www.google.co.nz">Login<br>Sign Up</a>
-					</div>
+		</div>
+		<div id="logpos">
+			<div id="logbubble" class="logbob">
+				<div id="logtext">
+					<a href="http://www.google.co.nz">Login<br>Sign Up</a>
+				</div>
+			</div>
+		</div>
+		<div id="knowpos">
+			<div id="knowbubble" class="knowbob">
+				<div id="knowtext">
+					<a href="http://www.youtube.com">Knowledge</a>
 				</div>
 			</div>
 		</div>
