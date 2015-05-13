@@ -1,16 +1,13 @@
 // JavaScript Document
 
 function sporttran(){
-	$(".clearfix").animate({
+	$("#mainpos").animate({
 		"left" : "-10%"
 		}, 2000)
 		
 	$(".bobing").animate({
 		"opacity" : "0"	
-	}, 1800)
-	
-
-	
+	}, 1800)	
 		
 	$("#logpos").animate({
 		"left" : "-10%"
@@ -18,6 +15,14 @@ function sporttran(){
 		
 	$("#logbubble").animate({
 		"opacity" : "0"
+	}, 1800)
+	
+	$("#knowpos").animate({
+	"left" : "-10%"
+	}, 2000)
+	
+	$("#knowbubble").animate({
+		"opacity" : "0"	
 	}, 1800)
 
 }

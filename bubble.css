@@ -147,53 +147,31 @@ a:visited {
 @keyframes login {
     0% { opacity: 0; top: 700px;}
     33% {opacity: 1; top:300px;}
-<<<<<<< HEAD
-    100%   {top:65%;}
-=======
     100%   { opacity: 1; top:65%;}
->>>>>>> origin/master
 }
 
 @-moz-keyframes login {
     0% { opacity: 0; top: 700px;}
-<<<<<<< HEAD
-    33% {opacity:1; top:300px;}
-    100%   { top:65%;}
-=======
     33% {opacity: 1; top:300px;}
     100%   { opacity: 1; top:65%;}
->>>>>>> origin/master
 }
 
 @-webkit-keyframes login {
     0% { opacity: 0; top: 700px;}
     33% {opacity: 1; top:300px;}
-<<<<<<< HEAD
-    100%   { top:65%;}
-=======
     100%   { opacity: 1; top:65%;}
->>>>>>> origin/master
 }
 
 @-ms-keyframes login {
     0% { opacity: 0; top: 700px;}
     33% {opacity: 1; top:300px;}
-<<<<<<< HEAD
-    100%   {top:65%;}
-=======
     100%   { opacity: 1; top:65%;}
->>>>>>> origin/master
 }
 
 @-o-keyframes login {
     0% { opacity: 0; top: 700px;}
-<<<<<<< HEAD
-    33% {opacity:1; top:300px;}
-    100%   {top:65%;}
-=======
     33% {opacity: 1; top:300px;}
     100%   { opacity: 1; top:65%;}
->>>>>>> origin/master
 }
 
 #logbubble {
@@ -230,13 +208,8 @@ a:visited {
     40%  {left: 16px; top: 19px;}
     50%  {left: 20px; top: -5px;}
     60%  {left: 20px; top: 10px;}
-<<<<<<< HEAD
-    70%  {left: 15px; top: -50px;}
-    80%  {left: 9px; top: 30px;}
-=======
     70%  {left: 15px; top: -30px;}
     80%  {left: 9px top: 2px;}
->>>>>>> origin/master
     90%  {left: 4px; top: -10px;}
     100% {left: 0px; top: 0px;}
 }
@@ -244,17 +217,6 @@ a:visited {
 /* Standard syntax */
 @keyframes boblog {
     0%   {left: 0px; top: 0px;}
-<<<<<<< HEAD
-    10%  {left: 4px; top: 30px;}
-    20%  {left: 6px; top: -20px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px; top: -20px;}
-    90%  {left: 4px; top: 40px;}
-=======
     10%  {left: 4px; top: -20px;}
     20%  {left: 6px; top: 10px;}
     30%  {left: 10px; top: -14px;}
@@ -264,7 +226,6 @@ a:visited {
     70%  {left: 15px; top: -30px;}
     80%  {left: 9px top: 2px;}
     90%  {left: 4px; top: -10px;}
->>>>>>> origin/master
     100% {left: 0px; top: 0px;}
 }
 
@@ -289,11 +250,7 @@ a:visited {
 
 @keyframes sportin {
     0% { opacity: 0; top: 500px;}
-<<<<<<< HEAD
-    33% {opacity: 1 top:100px;}
-=======
     33% {opacity: 1; top:100px;}
->>>>>>> origin/master
     100%   { opacity: 1; top:22%;}
 }
 
@@ -335,15 +292,9 @@ a:visited {
 
 #sporttext{
 	position: absolute;
-<<<<<<< HEAD
 	top: 31.5px;
 	left:11px;
 	margin: 0px;
-=======
-	top: 32px;
-	left:13px;
-	margin: 0px
->>>>>>> origin/master
 }
 
 .sportbob {
@@ -368,32 +319,15 @@ a:visited {
     40%  {left: 16px; top: 15px;}
     50%  {left: 20px; top: -10px;}
     60%  {left: 20px; top: 20px;}
-<<<<<<< HEAD
-    70%  {left: 15px; top: -40px;}
-    80%  {left: 9px; top: 20px;}
-    90%  {left: 4px; top: -40px;}
-=======
     70%  {left: 15px; top: -10px;}
     80%  {left: 9px top: 5px;}
     90%  {left: 4px; top: -15px;}
->>>>>>> origin/master
     100% {left: 0px; top: 0px;}
 }
 
 /* Standard syntax */
 @keyframes bobsport {
     0%   {left: 0px; top: 0px;}
-<<<<<<< HEAD
-    10%  {left: 4px; top: 30px;}
-    20%  {left: 6px; top: -20px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px; top: -20px;}
-    90%  {left: 4px; top: 40px;}
-=======
     10%  {left: 4px; top: -10px;}
     20%  {left: 6px; top: 20px;}
     30%  {left: 10px; top: -10px;}
@@ -403,7 +337,6 @@ a:visited {
     70%  {left: 15px; top: -10px;}
     80%  {left: 9px top: 5px;}
     90%  {left: 4px; top: -15px;}
->>>>>>> origin/master
     100% {left: 0px; top: 0px;}
 }
 
@@ -428,11 +361,7 @@ a:visited {
 
 @-moz-keyframes fadein {
     0% { opacity: 0; top: 500px;}
-<<<<<<< HEAD
-    33% {opacity: 1 top:100px;}
-=======
     33% {opacity: 1; top:100px;}
->>>>>>> origin/master
     100%   { opacity: 1; top:30%;}
 }
 
@@ -489,15 +418,6 @@ a:visited {
     0%   {left: 0px; top: 0px;}
     10%  {left: 4px; top: 10px;}
     20%  {left: 6px; top: -20px;}
-<<<<<<< HEAD
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px; top: -20px;}
-    90%  {left: 4px; top: 40px;}
-=======
     30%  {left: 10px; top: 18px;}
     40%  {left: 16px; top: -7px;}
     50%  {left: 20px; top: 22px;}
@@ -505,7 +425,6 @@ a:visited {
     70%  {left: 15px; top: 9px;}
     80%  {left: 9px top: -15px;}
     90%  {left: 4px; top: 25px;}
->>>>>>> origin/master
     100% {left: 0px; top: 0px;}
 }
 
@@ -514,15 +433,6 @@ a:visited {
     0%   {left: 0px; top: 0px;}
     10%  {left: 4px; top: 10px;}
     20%  {left: 6px; top: -20px;}
-<<<<<<< HEAD
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px; top: -20px;}
-    90%  {left: 4px; top: 40px;}
-=======
     30%  {left: 10px; top: 18px;}
     40%  {left: 16px; top: -7px;}
     50%  {left: 20px; top: 22px;}
@@ -530,7 +440,6 @@ a:visited {
     70%  {left: 15px; top: 9px;}
     80%  {left: 9px top: -15px;}
     90%  {left: 4px; top: 25px;}
->>>>>>> origin/master
     100% {left: 0px; top: 0px;}
 }
 

@@ -40,3 +40,11 @@ function widthtest() {
 }
 
 /* Functions End */
+
+/* Sports onClick Function Start*/
+
+function sporttran(){
+	$(".clearfix").animate({
+		"opacity" : "0"
+	}, 2000)
+}
