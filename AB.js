@@ -1,6 +1,6 @@
 /* Onload */
 
-if (screen.width < 960) {
+if (window.width < 960) {
 	alert("Your Screen size is less than 960px in width. All Animations have stopped. For optimal quality go to a bigger screen")
 }
 else {
