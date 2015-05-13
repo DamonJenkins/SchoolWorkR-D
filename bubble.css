@@ -31,11 +31,11 @@ a:visited {
 	position: absolute;
 	-webkit-animation-delay: 8s; /* Chrome, Safari, Opera */
     -webkit-animation-name: bobknow; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 8s;
     animation-name: bobknow;
-    animation-duration: 70s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     color: black;
 }
@@ -44,29 +44,29 @@ a:visited {
 @-webkit-keyframes bobknow {
     0%   {left: 0px; top: 0px;}
     10%  {left: 4px; top: 20px;}
-    20%  {left: 6px; top: -40px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -50px;}
-    50%  {left: 20px; top: 20px;}
+    20%  {left: 6px; top: -10px;}
+    30%  {left: 10px; top: 15px;}
+    40%  {left: 16px; top: -20px;}
+    50%  {left: 20px; top: 12px;}
     60%  {left: 20px; top: -30px;}
     70%  {left: 15px; top: 10px;}
-    80%  {left: 9px top: -30px;}
-    90%  {left: 4px; top: 50px;}
+    80%  {left: 9px top: -17px;}
+    90%  {left: 4px; top: 10px;}
     100% {left: 0px; top: 0px;}
 }
 
 /* Standard syntax */
 @keyframes bobknow {
     0%   {left: 0px; top: 0px;}
-    10%  {left: 4px; top: 30px;}
-    20%  {left: 6px; top: -20px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
-    90%  {left: 4px; top: 40px;}
+    10%  {left: 4px; top: 20px;}
+    20%  {left: 6px; top: -10px;}
+    30%  {left: 10px; top: 15px;}
+    40%  {left: 16px; top: -20px;}
+    50%  {left: 20px; top: 12px;}
+    60%  {left: 20px; top: -30px;}
+    70%  {left: 15px; top: 10px;}
+    80%  {left: 9px top: -17px;}
+    90%  {left: 4px; top: 10px;}
     100% {left: 0px; top: 0px;}
 }
 
@@ -190,11 +190,11 @@ a:visited {
 	position: absolute;
 	-webkit-animation-delay: 10s; /* Chrome, Safari, Opera */
     -webkit-animation-name: boblog; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 10s;
     animation-name: boblog;
-    animation-duration: 70s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     color: black;
 }
@@ -202,14 +202,14 @@ a:visited {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes boblog {
     0%   {left: 0px; top: 0px;}
-    10%  {left: 4px; top: -40px;}
-    20%  {left: 6px; top: 30px;}
-    30%  {left: 10px; top: -30px;}
-    40%  {left: 16px; top: 40px;}
-    50%  {left: 20px; top: -20px;}
+    10%  {left: 4px; top: -20px;}
+    20%  {left: 6px; top: 10px;}
+    30%  {left: 10px; top: -14px;}
+    40%  {left: 16px; top: 19px;}
+    50%  {left: 20px; top: -5px;}
     60%  {left: 20px; top: 10px;}
-    70%  {left: 15px; top: -50px;}
-    80%  {left: 9px top: 30px;}
+    70%  {left: 15px; top: -30px;}
+    80%  {left: 9px top: 2px;}
     90%  {left: 4px; top: -10px;}
     100% {left: 0px; top: 0px;}
 }
@@ -217,15 +217,15 @@ a:visited {
 /* Standard syntax */
 @keyframes boblog {
     0%   {left: 0px; top: 0px;}
-    10%  {left: 4px; top: 30px;}
-    20%  {left: 6px; top: -20px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
-    90%  {left: 4px; top: 40px;}
+    10%  {left: 4px; top: -20px;}
+    20%  {left: 6px; top: 10px;}
+    30%  {left: 10px; top: -14px;}
+    40%  {left: 16px; top: 19px;}
+    50%  {left: 20px; top: -5px;}
+    60%  {left: 20px; top: 10px;}
+    70%  {left: 15px; top: -30px;}
+    80%  {left: 9px top: 2px;}
+    90%  {left: 4px; top: -10px;}
     100% {left: 0px; top: 0px;}
 }
 
@@ -301,11 +301,11 @@ a:visited {
 	position: absolute;
 	-webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
     -webkit-animation-name: bobsport; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 5s;
     animation-name: bobsport;
-    animation-duration: 70s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     color: black;
 }
@@ -313,30 +313,30 @@ a:visited {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes bobsport {
     0%   {left: 0px; top: 0px;}
-    10%  {left: 4px; top: -30px;}
+    10%  {left: 4px; top: -10px;}
     20%  {left: 6px; top: 20px;}
     30%  {left: 10px; top: -10px;}
-    40%  {left: 16px; top: 30px;}
-    50%  {left: 20px; top: -30px;}
+    40%  {left: 16px; top: 15px;}
+    50%  {left: 20px; top: -10px;}
     60%  {left: 20px; top: 20px;}
-    70%  {left: 15px; top: -40px;}
-    80%  {left: 9px top: 20px;}
-    90%  {left: 4px; top: -40px;}
+    70%  {left: 15px; top: -10px;}
+    80%  {left: 9px top: 5px;}
+    90%  {left: 4px; top: -15px;}
     100% {left: 0px; top: 0px;}
 }
 
 /* Standard syntax */
 @keyframes bobsport {
     0%   {left: 0px; top: 0px;}
-    10%  {left: 4px; top: 30px;}
-    20%  {left: 6px; top: -20px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
-    90%  {left: 4px; top: 40px;}
+    10%  {left: 4px; top: -10px;}
+    20%  {left: 6px; top: 20px;}
+    30%  {left: 10px; top: -10px;}
+    40%  {left: 16px; top: 15px;}
+    50%  {left: 20px; top: -10px;}
+    60%  {left: 20px; top: 20px;}
+    70%  {left: 15px; top: -10px;}
+    80%  {left: 9px top: 5px;}
+    90%  {left: 4px; top: -15px;}
     100% {left: 0px; top: 0px;}
 }
 
@@ -405,10 +405,10 @@ a:visited {
 .bobing {
 	position: absolute;
     -webkit-animation-name: bobmain; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-name: bobmain;
-    animation-duration: 70s;
+    animation-duration: 7s;
     animation-iteration-count: infinite;
     color: black;
 }
@@ -416,30 +416,30 @@ a:visited {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes bobmain {
     0%   {left: 0px; top: 0px;}
-    10%  {left: 4px; top: 30px;}
+    10%  {left: 4px; top: 10px;}
     20%  {left: 6px; top: -20px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
-    90%  {left: 4px; top: 40px;}
+    30%  {left: 10px; top: 18px;}
+    40%  {left: 16px; top: -7px;}
+    50%  {left: 20px; top: 22px;}
+    60%  {left: 20px; top: -12px;}
+    70%  {left: 15px; top: 9px;}
+    80%  {left: 9px top: -15px;}
+    90%  {left: 4px; top: 25px;}
     100% {left: 0px; top: 0px;}
 }
 
 /* Standard syntax */
 @keyframes bobmain {
     0%   {left: 0px; top: 0px;}
-    10%  {left: 4px; top: 30px;}
+    10%  {left: 4px; top: 10px;}
     20%  {left: 6px; top: -20px;}
-    30%  {left: 10px; top: 10px;}
-    40%  {left: 16px; top: -30px;}
-    50%  {left: 20px; top: 30px;}
-    60%  {left: 20px; top: -20px;}
-    70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
-    90%  {left: 4px; top: 40px;}
+    30%  {left: 10px; top: 18px;}
+    40%  {left: 16px; top: -7px;}
+    50%  {left: 20px; top: 22px;}
+    60%  {left: 20px; top: -12px;}
+    70%  {left: 15px; top: 9px;}
+    80%  {left: 9px top: -15px;}
+    90%  {left: 4px; top: 25px;}
     100% {left: 0px; top: 0px;}
 }
 
