@@ -32,32 +32,32 @@ a:visited {
 
 @keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 0.5; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity: 1; top:300px;}
+    100%   {top:65%;}
 }
 
 @-moz-keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 0.5; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity:1; top:300px;}
+    100%   { top:65%;}
 }
 
 @-webkit-keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 0.5; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity: 1; top:300px;}
+    100%   { top:65%;}
 }
 
 @-ms-keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 0.5; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity: 1; top:300px;}
+    100%   {top:65%;}
 }
 
 @-o-keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 0.5; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity:1; top:300px;}
+    100%   {top:65%;}
 }
 
 #logbubble {
@@ -95,7 +95,7 @@ a:visited {
     50%  {left: 20px; top: -20px;}
     60%  {left: 20px; top: 10px;}
     70%  {left: 15px; top: -50px;}
-    80%  {left: 9px top: 30px;}
+    80%  {left: 9px; top: 30px;}
     90%  {left: 4px; top: -10px;}
     100% {left: 0px; top: 0px;}
 }
@@ -110,7 +110,7 @@ a:visited {
     50%  {left: 20px; top: 30px;}
     60%  {left: 20px; top: -20px;}
     70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
+    80%  {left: 9px; top: -20px;}
     90%  {left: 4px; top: 40px;}
     100% {left: 0px; top: 0px;}
 }
@@ -122,48 +122,6 @@ a:visited {
 	margin: 0px
 }
 
-a#sportbubble:active {
-	padding: 0px;
-	margin:0px;
-	text-align: center;
-	border: solid #000;
-	border-radius: 50%;
-	width:100px;
-	height: 100px;
-	font-size: 2em;
-	background-color: yellow;
-	-webkit-animation: nextpage 9s;
-    -moz-animation: nextpage 9s;
-    -ms-animation: nextpage 9s;
-    -o-animation: nextpage 9s; 
-    animation: nextpage 9s;
-}
-
-@keyframes sportin {
-    from {width:100px;}
-    to   {width:10000px;}
-}
-
-@-moz-keyframes sportin {
-    from {width:100px;}
-    to   {width:10000px;}
-}
-
-@-webkit-keyframes sportin {
-    from {width:100px;}
-    to   {width:10000px;}
-}
-
-@-ms-keyframes sportin {
-    from {width:100px;}
-    to   {width:10000px;}
-}
-
-@-o-keyframes sportin {
-    from {width:100px;}
-    to   {width:10000px;}
-}
-
 #sportpos{
 	position: absolute;
 	top:22%;
@@ -172,37 +130,37 @@ a#sportbubble:active {
 	-webkit-animation: sportin 9s;
     -moz-animation: sportin 9s;
     -ms-animation: sportin 9s;
-    -o-animation: sportin 9s; 
+    -o-animation: sportin 9s;
     animation: sportin 9s;
 }
 
 @keyframes sportin {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1 top:100px;}
     100%   { opacity: 1; top:22%;}
 }
 
 @-moz-keyframes sportin {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:22%;}
 }
 
 @-webkit-keyframes sportin {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:22%;}
 }
 
 @-ms-keyframes sportin {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:22%;}
 }
 
 @-o-keyframes sportin {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:22%;}
 }
 
@@ -222,7 +180,7 @@ a#sportbubble:active {
 	position: absolute;
 	top: 31.5px;
 	left:11px;
-	margin: 0px
+	margin: 0px;
 }
 
 .sportbob {
@@ -248,7 +206,7 @@ a#sportbubble:active {
     50%  {left: 20px; top: -30px;}
     60%  {left: 20px; top: 20px;}
     70%  {left: 15px; top: -40px;}
-    80%  {left: 9px top: 20px;}
+    80%  {left: 9px; top: 20px;}
     90%  {left: 4px; top: -40px;}
     100% {left: 0px; top: 0px;}
 }
@@ -263,7 +221,7 @@ a#sportbubble:active {
     50%  {left: 20px; top: 30px;}
     60%  {left: 20px; top: -20px;}
     70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
+    80%  {left: 9px; top: -20px;}
     90%  {left: 4px; top: 40px;}
     100% {left: 0px; top: 0px;}
 }
@@ -271,7 +229,7 @@ a#sportbubble:active {
 #mainpos{
 	position: absolute;
 	top:30%;
-	left:50%;
+	left:43.5625%;
 	margin:0px;
 	padding:0px;
 	-webkit-animation: fadein 7s;
@@ -283,31 +241,31 @@ a#sportbubble:active {
 
 @keyframes fadein {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:30%;}
 }
 
 @-moz-keyframes fadein {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1 top:100px;}
     100%   { opacity: 1; top:30%;}
 }
 
 @-webkit-keyframes fadein {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:30%;}
 }
 
 @-ms-keyframes fadein {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:30%;}
 }
 
 @-o-keyframes fadein {
     0% { opacity: 0; top: 500px;}
-    33% {opacity: 0.5; top:100px;}
+    33% {opacity: 1; top:100px;}
     100%   { opacity: 1; top:30%;}
 }
 
@@ -352,7 +310,7 @@ a#sportbubble:active {
     50%  {left: 20px; top: 30px;}
     60%  {left: 20px; top: -20px;}
     70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
+    80%  {left: 9px; top: -20px;}
     90%  {left: 4px; top: 40px;}
     100% {left: 0px; top: 0px;}
 }
@@ -367,9 +325,13 @@ a#sportbubble:active {
     50%  {left: 20px; top: 30px;}
     60%  {left: 20px; top: -20px;}
     70%  {left: 15px; top: 40px;}
-    80%  {left: 9px top: -20px;}
+    80%  {left: 9px; top: -20px;}
     90%  {left: 4px; top: 40px;}
     100% {left: 0px; top: 0px;}
+}
+
+.clearfix{
+	
 }
 
 .clearfix:after {
