@@ -4,20 +4,16 @@ if ($(window).width() < 960) {
 	alert("Your screen size is less than 960 pixels in width. All animations have stopped. For optimal quality go to a larger screen")
 }
 else {
-<<<<<<< HEAD
 	alert("Your screen size is optimal")
 };
 
+setTimeout(alert($("#maintext").width()), 2000)
 /* Onload End */
-=======
-	alert("Your Screen Size is optimal")
-}
 
 window.addEventListener('load', thing);
 window.addEventListener('load', widthtest);
 
 /* Onload */
->>>>>>> 1b27dcadc3fab3096ba0b50d9915624e8cc43a70
 
 
 /* Functions */
