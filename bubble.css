@@ -31,11 +31,11 @@ a:visited {
 	position: absolute;
 	-webkit-animation-delay: 8s; /* Chrome, Safari, Opera */
     -webkit-animation-name: bobknow; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 8s;
     animation-name: bobknow;
-    animation-duration: 7s;
+    animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
 }
@@ -212,11 +212,11 @@ a:visited {
 	position: absolute;
 	-webkit-animation-delay: 10s; /* Chrome, Safari, Opera */
     -webkit-animation-name: boblog; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 10s;
     animation-name: boblog;
-    animation-duration: 7s;
+    animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
 }
@@ -350,11 +350,11 @@ a:visited {
 	position: absolute;
 	-webkit-animation-delay: 5s; /* Chrome, Safari, Opera */
     -webkit-animation-name: bobsport; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 5s;
     animation-name: bobsport;
-    animation-duration: 7s;
+    animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
 }
@@ -476,10 +476,10 @@ a:visited {
 .bobing {
 	position: absolute;
     -webkit-animation-name: bobmain; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 7s; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-name: bobmain;
-    animation-duration: 7s;
+    animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
 }
