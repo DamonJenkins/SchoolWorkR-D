@@ -5,9 +5,10 @@ if (screen.width < 960) {
 }
 else {
 	alert("Your Screen Size is optimal")
-};
+}
 
 window.addEventListener('load', thing);
+window.addEventListener('load', widthtest);
 
 /* Onload */
 
@@ -27,6 +28,12 @@ function thing() {
 		greeting = "Good Evening";
 	}
 	document.getElementById("address").innerHTML = greeting;
+}
+
+function widthtest() {
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+    document.getElementById("demo").innerHTML = "Width: " + w + "<br>Heigth: " + h;
 }
 
 /* Functions End */
