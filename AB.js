@@ -1,11 +1,19 @@
 /* Onload */
 
+<<<<<<< HEAD
 if (window.width < 960) {
 	alert("Your Screen size is less than 960px in width. All Animations have stopped. For optimal quality go to a bigger screen")
+=======
+if ($(window).width() < 960) {
+	alert("Your screen size is less than 960 pixels in width. All animations have stopped. For optimal quality go to a larger screen")
+>>>>>>> origin/master
 }
 else {
-	alert("Your Screen Size is optimal")
-}
+	alert("Your screen size is optimal")
+};
+
+setTimeout(alert($("#maintext").width()), 2000)
+/* Onload End */
 
 window.addEventListener('load', thing);
 window.addEventListener('load', widthtest);
@@ -19,10 +27,10 @@ function thing() {
 	var greeting;
 	var time = new Date().getHours();
 	if (time < 10) {
-		greeting = "Good morning";
+		greeting = "Good Morning";
 	}
 	else if (time < 20) {
-		greeting = "Good day";
+		greeting = "Good Day";
 	}
 	else {
 		greeting = "Good Evening";
