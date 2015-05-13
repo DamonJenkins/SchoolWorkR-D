@@ -36,9 +36,9 @@ function sportshide(){
 		"visibility" : "hidden"	
 	})
 	
-	$("#sportpos").animate({
-		"top" : "60%"
-		}, 2000)
+	$("#knowbubble").css({
+		"visibilty" : "hidden"
+	})
 }
 
 function sporttranb(){
