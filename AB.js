@@ -8,7 +8,6 @@ else {
 	alert("Your screen size is optimal")
 };
 
-setTimeout(alert($("#maintext").width()), 2000)
 /* Onload End */
 
 window.addEventListener('load', thing);
