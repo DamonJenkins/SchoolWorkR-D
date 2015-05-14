@@ -25,6 +25,7 @@ function sporttran(){
 		"opacity" : "0"	
 	}, 1800)
 
+
 }
 
 function sportshide(){
@@ -39,12 +40,17 @@ function sportshide(){
 	$("#knowbubble").css({
 		"visibilty" : "hidden"
 	})
+
 }
 
 function sporttranb(){
+	$("#sportpos").animate({
+		"left" : ($(window).width() - $("#sportbubble").width()) / 2
+	}, 1800)
 }
 
 function sports(){
 	sporttran()
 	setTimeout(sportshide, 2050)
+	setTimeout(sporttranb, 2100)
 }
