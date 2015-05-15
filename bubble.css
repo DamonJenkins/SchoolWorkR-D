@@ -285,7 +285,13 @@ a:visited {
 
 #sportbubble:hover > #sporttext{
 	top: 33px;
+	color:#00CC66;
 }
+
+#sportbubble:hover::before{
+	opacity: 1;
+}
+
 
 #sportbubble:hover{
 	box-shadow: 7px 17px 13px #000;
@@ -295,13 +301,8 @@ a:visited {
 	border: 0px solid #000;
 }
 
-#sportbg{
-	background:url(sportsbg.jpg);
-	background-size: cover;
-	overflow: hidden;
-}
-
 #sportbubble {
+	overflow:hidden;
 	padding: 0px;
 	margin:0px;
 	text-align: center;
@@ -315,12 +316,34 @@ a:visited {
 	-webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 }
 
+#sportbubble::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    background-image: url(sportsbg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	-webkit-transition: opacity 0.65s;
+}
+
 #sporttext{
-	-webkit-transition: top 0.65s;
+	-webkit-transition: top 0.65s, color 0.65s;
 	position: absolute;
 	top: 31.5px;
 	left:11px;
 	margin: 0px;
+	color:#000;
 }
 
 .sportbob {
