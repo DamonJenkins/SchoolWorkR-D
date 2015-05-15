@@ -45,12 +45,34 @@ function sportshide(){
 
 function sporttranb(){
 	$("#sportpos").animate({
-		"left" : ($(window).width() - $("#sportbubble").width()) / 2
+		"left" : ($(window).width() - $("#sportbubble").width()) / 2,
+		"margin-top" : (($(window).height() - $("#sportbubble").height()) / 2) / 2
 	}, 1800)
+	
+	$("#sporttext").animate({
+		"opacity" : "0"
+	})
+	
+	$(".sportbob").css({
+		"-webkit-animation-play-state" : "paused",
+		"animation-play-state" : "paused"
+	})
+	
+	$("#sportbubble").animate({
+		"border-width" : "0"
+	})
+}
+
+function sportexpand(){
+	$("#sportbubble").animate({
+		"box-shadow" : "0 0 0 0 rgba(0,0,0,1)"
+	}, 2500)
+	
 }
 
 function sports(){
 	sporttran()
 	setTimeout(sportshide, 2050)
 	setTimeout(sporttranb, 2100)
+	setTimeout(sportexpand, 2200)
 }

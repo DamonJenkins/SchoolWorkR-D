@@ -292,20 +292,27 @@ a:visited {
 	width: 107px;
 	height: 107px;
 	font-size: 1.87em;
+	border: 0px solid #000;
+}
+
+#sportbg{
+	background:url(sportsbg.jpg);
+	background-size: cover;
+	overflow: hidden;
 }
 
 #sportbubble {
 	padding: 0px;
 	margin:0px;
 	text-align: center;
-	border: solid #000;
+	border: 3px solid #000;
 	border-radius: 50%;
 	width:100px;
 	height: 100px;
 	font-size: 1.7em;
 	background-color: yellow;
 	box-shadow: 2px 4px 10px #000;
-	-webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s;
+	-webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 }
 
 #sporttext{
