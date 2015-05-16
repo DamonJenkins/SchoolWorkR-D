@@ -4,6 +4,60 @@ body, html{
 	background-color: #B0FFFF;
 }
 
+@media screen and (max-width:960px) {
+	
+	#screenwarn {
+		display: table;
+		color: black;
+		font-size: 1.4em;
+		text-align:center;
+	}
+
+	button {
+		display:none;
+	}
+
+	.bobing {
+	position: absolute;
+    -webkit-animation-name: bobmain; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
+    animation-name: bobmain;
+    animation-duration: 0s;
+    animation-iteration-count: 0;
+	}
+
+	.logbob {
+	position: absolute;
+    -webkit-animation-name: boblog; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
+    animation-name: boblog;
+    animation-duration: 0s;
+    animation-iteration-count: 0;
+	}
+
+	.sportbob {
+	position: absolute;
+    -webkit-animation-name: bobsport; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
+    animation-name: bobsport;
+    animation-duration: 0s;
+    animation-iteration-count: 0;
+	}
+
+	.knowbob{
+	position: absolute;
+    -webkit-animation-name: bobknow; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
+    animation-name: bobknow;
+    animation-duration: 0s;
+    animation-iteration-count: 0;
+	}
+}
+
 #address{
 	margin: 0 0 0 0;
 	text-align:center;
@@ -283,17 +337,18 @@ a:visited {
     100%   { opacity: 1; top:22%;}
 }
 
-#sportbubble:hover > #sporttext{
+.noClick#sportbubble:hover > #sporttext{
 	top: 33px;
-	color:#00CC66;
+	color:#fff;
+	text-shadow: 0px 0px 4px #000;
 }
 
-#sportbubble:hover::before{
+.noClick#sportbubble:hover::before{
 	opacity: 1;
 }
 
 
-#sportbubble:hover{
+.noClick#sportbubble:hover{
 	box-shadow: 7px 17px 13px #000;
 	width: 107px;
 	height: 107px;
@@ -318,6 +373,7 @@ a:visited {
 	-ms-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 	-o-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 	transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+
 }
 
 #sportbubble::before {
@@ -326,8 +382,8 @@ a:visited {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
-    height: 100%;
+    width: 100.5%;
+    height: 100.5%;
     z-index: 0;
     opacity: 0;
     background-image: url(sportsbg.jpg);
@@ -343,6 +399,12 @@ a:visited {
 	-ms-transition: opacity 0.65s;
 	-o-transition: opacity 0.65s;
 	transition: opacity 0.65s;
+	border-radius:50%;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	-o-filter: blur(1px);
+	filter: blur(1%);
 }
 
 #sporttext{
@@ -513,58 +575,4 @@ a:visited {
 	height:0;
 	display:block;
 	content:".";
-}
-
-@media screen and (max-width:960px) {
-	
-	#screenwarn {
-		display: table;
-		color: black;
-		font-size: 1.4em;
-		text-align:center;
-	}
-
-	button {
-		display:none;
-	}
-
-	.bobing {
-	position: absolute;
-    -webkit-animation-name: bobmain; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
-    animation-name: bobmain;
-    animation-duration: 0s;
-    animation-iteration-count: 0;
-	}
-
-	.logbob {
-	position: absolute;
-    -webkit-animation-name: boblog; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
-    animation-name: boblog;
-    animation-duration: 0s;
-    animation-iteration-count: 0;
-	}
-
-	.sportbob {
-	position: absolute;
-    -webkit-animation-name: bobsport; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
-    animation-name: bobsport;
-    animation-duration: 0s;
-    animation-iteration-count: 0;
-	}
-
-	.knowbob{
-	position: absolute;
-    -webkit-animation-name: bobknow; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: 0; /* Chrome, Safari, Opera */
-    animation-name: bobknow;
-    animation-duration: 0s;
-    animation-iteration-count: 0;
-	}
 }

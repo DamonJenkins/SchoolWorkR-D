@@ -25,6 +25,12 @@ function sporttran(){
 		"opacity" : "0"	
 	}, 1800)
 
+	if ($("#sportbubble").hasClass("noClick")){
+		$("#sportbubble").toggleClass("noClick")
+		$(".sportLink").css({
+			"cursor" : "default"
+		});
+	}
 
 }
 
