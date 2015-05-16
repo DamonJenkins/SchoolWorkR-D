@@ -33,12 +33,6 @@ function thing() {
 	document.getElementById("address").innerHTML = greeting;
 }
 
-function widthtest() {
-    var w = window.innerWidth;
-    var h = window.innerHeight;
-    document.getElementById("demo").innerHTML = "Width: " + w + "<br>Heigth: " + h;
-}
-
 /* Functions End */
 
 /* Sports onClick Function Start*/

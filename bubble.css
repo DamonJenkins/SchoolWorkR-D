@@ -507,6 +507,7 @@ a:visited {
 
 #maintext {
 	position: absolute;
+    text-align: center;
 	top: 40%;
 	left: 3%;
 	margin: 0px
@@ -563,10 +564,6 @@ a:visited {
     80%  {left: 9px top: -15px;}
     90%  {left: 4px; top: 25px;}
     100% {left: 0px; top: 0px;}
-}
-
-.clearfix{
-	
 }
 
 .clearfix:after {
