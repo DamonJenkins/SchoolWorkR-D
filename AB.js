@@ -11,7 +11,6 @@ else {
 /* Onload End */
 
 window.addEventListener('load', thing);
-window.addEventListener('load', widthtest);
 
 /* Onload */
 
