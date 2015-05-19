@@ -69,9 +69,18 @@ function sporttranb(){
 	})
 }
 
+function sportsbg(){
+	$("body").css({
+		"background" : "radial-gradient(yellow 0%, #B0FFFF 100%)"
+	})
+	
+	$("body").animate({
+		"background" : "radial-gradient(yellow 100%, #B0FFFF 0%)"
+	}, 2500)
+}
+
 function sportexpand(){
 	$("#sportbubble").animate({
-		"box-shadow" : "0 0 0 0 rgba(0,0,0,1)"
 	}, 2500)
 	
 }
@@ -80,5 +89,5 @@ function sports(){
 	sporttran()
 	setTimeout(sportshide, 2050)
 	setTimeout(sporttranb, 2100)
-	setTimeout(sportexpand, 2200)
+	setTimeout(sportsbg, 2200)
 }

@@ -228,7 +228,33 @@ a:visited {
     100%   { opacity: 1; top:65%;}
 }
 
+.noClick#logbubble:hover > #sporttext{
+	top: 33px;
+	color:#fff;
+	text-shadow: 0px 0px 4px #000;
+}
+
+.noClick#logbubble:hover::before{
+	opacity: 1;
+}
+
+
+.noClick#logbubble:hover{
+	box-shadow: 5px 20px 15px 3px #000;
+	width: 142px;
+	height: 142px;
+	font-size: 1.87em;
+	border: 1px solid #00cc00;
+}
+
+.noClick#logbubble{
+	box-shadow: 2px 4px 10px #000;
+}
+
 #logbubble {
+	overflow:hidden;
+	text-align: center;
+	border: 3px solid #000;
 	padding: 0px;
 	margin:0px;
 	text-align: center;
@@ -238,6 +264,50 @@ a:visited {
 	height: 130px;
 	font-size: 1.7em;
 	background-color: green;
+	-webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	-moz-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	-ms-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	-o-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+}
+
+#logbubble::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100.5%;
+    height: 100.5%;
+    z-index: 0;
+    opacity: 0;
+    background-image: url(logbg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	-webkit-transition: opacity 0.65s;
+	-moz-transition: opacity 0.65s;
+	-ms-transition: opacity 0.65s;
+	-o-transition: opacity 0.65s;
+	transition: opacity 0.65s;
+	border-radius:50%;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	-o-filter: blur(1px);
+	filter: blur(1%);
+}
+
+.logbob:hover{
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
 }
 
 .logbob {
@@ -291,8 +361,11 @@ a:visited {
 }
 
 .sportbob:hover{
-	-webkit-animation-play-state:paused;
-	animation-play-state:paused;
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
 }
 
 #sportpos{
@@ -349,11 +422,15 @@ a:visited {
 
 
 .noClick#sportbubble:hover{
-	box-shadow: 7px 17px 13px #000;
+	box-shadow: 5px 20px 15px 3px #000;
 	width: 107px;
 	height: 107px;
 	font-size: 1.87em;
-	border: 0px solid #000;
+	border: 1px solid #00cc00;
+}
+
+.noClick#sportbubble{
+	box-shadow: 2px 4px 10px #000;
 }
 
 #sportbubble {
@@ -366,8 +443,7 @@ a:visited {
 	width:100px;
 	height: 100px;
 	font-size: 1.7em;
-	background-color: yellow;
-	box-shadow: 2px 4px 10px #000;
+	background-color: #fc3;
 	-webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 	-moz-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 	-ms-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
