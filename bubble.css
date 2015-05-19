@@ -81,6 +81,14 @@ a:visited {
 	display:none;
 }
 
+.knowbob:hover{
+	-webkit-animation-play-state: paused;
+	-moz-animation-play-state: paused;
+	-ms-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation-play-state: paused;
+}
+
 .knowbob {
 	position: absolute;
 	-webkit-animation-delay: 8s; /* Chrome, Safari, Opera */
@@ -124,12 +132,37 @@ a:visited {
     100% {left: 0px; top: 0px;}
 }
 
+.noClick#knowbubble:hover > #knowtext{
+	left: 25.3045px;
+	top: 73.5px;
+	color:#fff;
+	text-shadow: 0px 0px 4px #000;
+}
+
+.noClick#knowbubble:hover::before{
+	opacity: 1;
+}
+
+
+.noClick#knowbubble:hover{
+	box-shadow: 5px 20px 15px 3px #000;
+	width: 185px;
+	height: 185px;
+	font-size: 1.87em;
+	border: 1px solid #3399FF;
+}
+
+.noClick#knowbubble{
+	box-shadow: 2px 4px 10px #000;
+}
+
 #knowtext {
 	left: 22.3045px;
 	top: 69.5px;
 	position: absolute;
 	margin: 0px;
 	padding: 0px;
+	-webkit-transition: top 0.6s, left 0.6s, color 0.6s, text-shadow 0.6s;
 }
 
 #knowbubble {
@@ -142,6 +175,42 @@ a:visited {
 	height: 170px;
 	font-size: 1.7em;
 	background-color: red;
+	-webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	-moz-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	-ms-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	-o-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+	transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+}
+
+#knowbubble::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100.5%;
+    height: 100.5%;
+    z-index: 0;
+    opacity: 0;
+    background-image: url(knowbg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+	-webkit-transition: opacity 0.65s;
+	-moz-transition: opacity 0.65s;
+	-ms-transition: opacity 0.65s;
+	-o-transition: opacity 0.65s;
+	transition: opacity 0.65s;
+	border-radius:50%;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-ms-filter: blur(1px);
+	-o-filter: blur(1px);
+	filter: blur(1%);
 }
 
 #knowpos {
@@ -228,7 +297,7 @@ a:visited {
     100%   { opacity: 1; top:65%;}
 }
 
-.noClick#logbubble:hover > #sporttext{
+.noClick#logbubble:hover > #logtext{
 	top: 33px;
 	color:#fff;
 	text-shadow: 0px 0px 4px #000;
@@ -244,7 +313,7 @@ a:visited {
 	width: 142px;
 	height: 142px;
 	font-size: 1.87em;
-	border: 1px solid #00cc00;
+	border: 1px solid #3399FF;
 }
 
 .noClick#logbubble{
@@ -354,6 +423,7 @@ a:visited {
 }
 
 #logtext {
+	-webkit-transition: top 0.65s, color 0.65s;
 	position: absolute;
 	top: 34px;
 	left:20.031px;
