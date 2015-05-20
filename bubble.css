@@ -4,8 +4,21 @@ body, html{
 	background-color: #B0FFFF;
 }
 
+@media screen and (max-height:700px) {
+    #logpos {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    margin:0px;
+    -webkit-animation: login 8s;
+    -moz-animation: login 8s;
+    -ms-animation: login 8s;
+    -o-animation: login 8s; 
+    animation: login 8s;
+}
+}
+
 @media screen and (max-width:960px) {
-	
 	#screenwarn {
 		display: table;
 		color: black;
