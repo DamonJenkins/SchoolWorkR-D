@@ -91,3 +91,89 @@ function sports(){
 	setTimeout(sporttranb, 2100)
 	setTimeout(sportsbg, 2200)
 }
+
+function knowtran(){
+	$("#mainpos").animate({
+		"left" : "-10%"
+		}, 2000)
+		
+	$(".bobing").animate({
+		"opacity" : "0"	
+	}, 1800)	
+		
+	$("#logpos").animate({
+		"left" : "-10%"
+		}, 2000)
+		
+	$("#logbubble").animate({
+		"opacity" : "0"
+	}, 1800)
+	
+	$("#sportpos").animate({
+	"left" : "-10%"
+	}, 2000)
+	
+	$("#sportbubble").animate({
+		"opacity" : "0"	
+	}, 1800)
+
+	if ($("#knowbubble").hasClass("noClick")){
+		$("#knowbubble").toggleClass("noClick")
+		$(".knowLink").css({
+			"cursor" : "default"
+		});
+	}
+
+}
+
+function knowhide(){
+	$("#logbubble").css({
+		"visibilty" : "hidden"
+	})
+	
+	$(".bobing").css({
+		"visibility" : "hidden"	
+	})
+	
+	$("#sportbubble").css({
+		"visibilty" : "hidden"
+	})
+
+}
+
+function knowtranb(){
+	$("#knowpos").animate({
+		"left" : ($(window).width() - $("#knowbubble").width()) / 2,
+		"margin-bottom" : (($(window).height() - $("#knowbubble").height()) / 2) / 2
+	}, 1800)
+	
+	$("#knowtext").animate({
+		"opacity" : "0"
+	})
+	
+	$(".knowbob").css({
+		"-webkit-animation-play-state" : "paused",
+		"animation-play-state" : "paused"
+	})
+	
+	$("#knowbubble").animate({
+		"border-width" : "0"
+	})
+}
+
+function knowbg(){
+	$("body").css({
+		"background" : "radial-gradient(yellow 0%, #B0FFFF 100%)"
+	})
+	
+	$("body").animate({
+		"background" : "radial-gradient(yellow 100%, #B0FFFF 0%)"
+	}, 2500)
+}
+
+function know(){
+	knowtran()
+	setTimeout(knowhide, 2050)
+	setTimeout(knowtranb, 2100)
+	setTimeout(knowbg, 2200)
+}
