@@ -26,7 +26,7 @@ body, html{
     -o-animation: logi 8s; 
     animation: logi 8s;
 }
-*/
+
 
 @keyframes logi {
     0% { opacity: 0; top: 700px;}
@@ -57,6 +57,7 @@ body, html{
     33% {opacity: 1; top:300px;}
     100%   { opacity: 1; top:65%;}
 }
+*/
 
 @media screen and (max-width:960px) {
 	#screenwarn {
