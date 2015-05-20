@@ -67,16 +67,19 @@ function sporttranb(){
 	$("#sportbubble").animate({
 		"border-width" : "0"
 	})
+	
+	$("body, html").css({
+		"background" : "webkit-radial-gradient(yellow 0%, #B0FFFF 100%)"
+	})
 }
 
 function sportsbg(){
-	$("body").css({
-		"background" : "radial-gradient(yellow 0%, #B0FFFF 100%)"
-	})
-	
-	$("body").animate({
-		"background" : "radial-gradient(yellow 100%, #B0FFFF 0%)"
-	}, 2500)
+	$("body, html").css({
+  	"background" : "-webkit-radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)", /* Safari 5.1-6.0 */
+  	"background" : "-o-radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)", /* For Opera 11.6-12.0 */
+  	"background" : "-moz-radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)", /* For Firefox 3.6-15 */
+  	"background" : "radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)" /* Standard syntax */
+})
 }
 
 function sportexpand(){

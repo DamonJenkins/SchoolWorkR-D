@@ -1,7 +1,16 @@
 body, html{
 	padding:0;
 	margin:0;
-	background-color: #B0FFFF;
+	top: -20%;
+	width: 100%;
+	height: 140%;
+	background-repeat: no-repeat;
+	background: -webkit-radial-gradient(20% top,red 5%, green 15%, blue 60%); /* Safari 5.1-6.0 */
+	background: -o-radial-gradient(red 5%, green 15%, blue 60%); /* For Opera 11.6-12.0 */
+  	background: -moz-radial-gradient(red 5%, green 15%, blue 60%); /* For Firefox 3.6-15 */
+  	background: radial-gradient(at 20% top,red 5%, green 15%, blue 60%); /* Standard syntax */
+	background-size: cover;
+	overflow: hidden;
 }
 
 @media screen and (max-height:700px) {
