@@ -19,12 +19,41 @@ body, html{
     top: 77%;
     left: 50%;
     margin:0px;
-    -webkit-animation: login 8s;
-    -moz-animation: login 8s;
-    -ms-animation: login 8s;
-    -o-animation: login 8s; 
-    animation: login 8s;
+    -webkit-animation: logi 8s;
+    -moz-animation: logi 8s;
+    -ms-animation: logi 8s;
+    -o-animation: logi 8s; 
+    animation: logi 8s;
 }
+
+@keyframes logi {
+    0% { opacity: 0; top: 700px;}
+    33% {opacity: 1; top:300px;}
+    100%   { opacity: 1; top:65%;}
+}
+
+@-moz-keyframes logi {
+    0% { opacity: 0; top: 700px;}
+    33% {opacity: 1; top:300px;}
+    100%   { opacity: 1; top:65%;}
+}
+
+@-webkit-keyframes logi {
+    0% { opacity: 0; top: 700px;}
+    33% {opacity: 1; top:300px;}
+    100%   { opacity: 1; top:65%;}
+}
+
+@-ms-keyframes logi {
+    0% { opacity: 0; top: 700px;}
+    33% {opacity: 1; top:300px;}
+    100%   { opacity: 1; top:65%;}
+}
+
+@-o-keyframes logi {
+    0% { opacity: 0; top: 700px;}
+    33% {opacity: 1; top:300px;}
+    100%   { opacity: 1; top:65%;}
 }
 
 @media screen and (max-width:960px) {
