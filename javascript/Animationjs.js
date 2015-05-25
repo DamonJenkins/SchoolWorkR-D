@@ -1,5 +1,4 @@
 // JavaScript Document
-
 function sporttran(){
 	$("#mainpos").animate({
 		"left" : "-10%"
