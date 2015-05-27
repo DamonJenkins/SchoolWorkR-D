@@ -66,10 +66,6 @@ function sporttranb(){
 	$("#sportbubble").animate({
 		"border-width" : "0"
 	})
-	
-	$("body, html").css({
-		"background" : "webkit-radial-gradient(yellow 0%, #B0FFFF 100%)"
-	})
 }
 
 function sportsbg(){

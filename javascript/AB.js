@@ -11,11 +11,16 @@ else {
 /* Onload End */
 
 window.addEventListener('load', thing);
+window.addEventListener('load', linkchange);
 
 /* Onload */
 
 
 /* Functions */
+
+function linkchange(){
+	$("a").attr("href", "#")
+}
 
 function thing() {
 	var greeting;

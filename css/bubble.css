@@ -700,13 +700,16 @@ a:visited {
     100%   { opacity: 1; top:30%;}
 }
 
-#maintext {
+#maintextid{
+	top: 40%;
+}
+
+.maintext {
 	position: absolute;
     text-align: center;
 	margin: 0 auto;
 	left: 0%;
 	right: 0%;
-	top: 42%;
 	margin: 0px;
 }
 
