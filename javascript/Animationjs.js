@@ -50,8 +50,7 @@ function sportshide(){
 
 function sporttranb(){
 	$("#sportpos").animate({
-		"left" : ($(window).width() - $("#sportbubble").width()) / 2,
-		"margin-top" : (($(window).height() - $("#sportbubble").height()) / 2) / 2
+		"left" : ($(window).width() - $("#sportbubble").width()) / 2
 	}, 1800)
 	
 	$("#sporttext").animate({
@@ -68,15 +67,6 @@ function sporttranb(){
 	})
 }
 
-function sportsbg(){
-	$("body, html").css({
-  	"background" : "-webkit-radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)", /* Safari 5.1-6.0 */
-  	"background" : "-o-radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)", /* For Opera 11.6-12.0 */
-  	"background" : "-moz-radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)", /* For Firefox 3.6-15 */
-  	"background" : "radial-gradient(rgba(255, 28, 99, 1) 5%, rgba(50, 255, 99, 1) 95%)" /* Standard syntax */
-})
-}
-
 function sportexpand(){
 	$("#sportbubble").animate({
 	}, 2500)
@@ -87,7 +77,9 @@ function sports(){
 	sporttran()
 	setTimeout(sportshide, 2050)
 	setTimeout(sporttranb, 2100)
-	setTimeout(sportsbg, 2200)
+	setTimeout(function(){
+		window.location = "sports.html"
+	}, 5000)
 }
 
 function knowtran(){
@@ -159,19 +151,8 @@ function knowtranb(){
 	})
 }
 
-function knowbg(){
-	$("body").css({
-		"background" : "radial-gradient(yellow 0%, #B0FFFF 100%)"
-	})
-	
-	$("body").animate({
-		"background" : "radial-gradient(yellow 100%, #B0FFFF 0%)"
-	}, 2500)
-}
-
 function know(){
 	knowtran()
 	setTimeout(knowhide, 2050)
 	setTimeout(knowtranb, 2100)
-	setTimeout(knowbg, 2200)
 }
