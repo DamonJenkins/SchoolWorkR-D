@@ -1,0 +1,15 @@
+body, html {
+	background-color: #b0ffff;
+}
+
+#Header {
+	position: absolute;
+	font-size: 3em;
+	font-family:Comic Sans, Comic Sans MS, cursive;
+	border-radius: 40px 40px;
+	background: blue;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	margin-left: 43.5%;
+	margin-top: 30px;
+}
