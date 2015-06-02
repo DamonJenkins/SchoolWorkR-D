@@ -8,6 +8,9 @@ body, html{
 	overflow: hidden;
 }
 
+.transitiondiv{
+	
+}
 /*
 @media screen and (max-height:700px) {
     #logpos {
