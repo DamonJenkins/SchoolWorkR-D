@@ -1,14 +1,11 @@
 body, html{
 	padding:0;
 	margin:0;
-	top: -20%;
 	width: 100%;
 	height: 140%;
 	background-color: #b0ffff;
 	overflow: hidden;
 }
-
-<<<<<<< HEAD
 .transitiondiv{
 	
 }
@@ -57,9 +54,6 @@ body, html{
     100%   { opacity: 1; top:65%;}
 }
 */
-
-=======
->>>>>>> origin/master
 #address{
 	margin: 0 0 0 0;
 	text-align:center;
