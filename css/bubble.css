@@ -155,7 +155,7 @@ a:visited {
 }
 
 .noClick#knowbubble:hover > #knowtext{
-	left: 25.3045px;
+	left: 7%;
 	top: 73.5px;
 	color:#fff;
 	text-shadow: 0px 0px 4px #000;
@@ -279,7 +279,7 @@ a:visited {
     100%   { opacity: 1; top:50%;}
 }
 
-#logpos {
+/*#logpos {
 	position: absolute;
 	top: 65%;
 	left: 50%;
@@ -289,9 +289,9 @@ a:visited {
     -ms-animation: login 8s;
     -o-animation: login 8s; 
     animation: login 8s;
-}
+}*/
 
-@keyframes login {
+/*@keyframes login {
     0% { opacity: 0; top: 700px;}
     33% {opacity: 1; top:300px;}
     100%   { opacity: 1; top:65%;}
@@ -319,7 +319,7 @@ a:visited {
     0% { opacity: 0; top: 700px;}
     33% {opacity: 1; top:300px;}
     100%   { opacity: 1; top:65%;}
-}
+}*/
 
 .noClick#logbubble:hover > #logtext{
 	top: 33px;
@@ -405,6 +405,7 @@ a:visited {
 
 .logbob {
 	position: absolute;
+	top: 65%;
 	-webkit-animation-delay: 10s; /* Chrome, Safari, Opera */
     -webkit-animation-name: boblog; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
@@ -418,7 +419,7 @@ a:visited {
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes boblog {
-    0%   {left: 0px; top: 0px;}
+    0%   {left: 0px; top: 0x;}
     10%  {left: 4px; top: -20px;}
     20%  {left: 6px; top: 10px;}
     30%  {left: 10px; top: -14px;}
