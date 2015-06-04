@@ -1,7 +1,34 @@
+@font-family {
+  font-family: "Century Gothic";
+  src: url("resources/fonts/gothic-c.eot");
+}
+
+@font-family {
+  font-family: "Century Gothic";
+  src: url("resources/fonts/gothic-c.ttf") format("truetype");
+}	
+
+@font-family {
+  font-family: "Century Gothic";
+  src: url("resources/fonts/gothic-b.eot");
+  font-weight: bold;
+}
+
+@font-family {
+  font-family: "Century Gothic";
+  src: url("resources/fonts/gothic-b.ttf") format("truetype");
+  font-weight: bold;
+}
+
 body, html {
 	background-color: #b0ffff;
 	margin:0;
 	padding:0;
+}
+
+.fonts {
+	font-family"Century Gothic", Arial, Helvetica;
+	font-weight: bold;
 }
 
 #Header {
