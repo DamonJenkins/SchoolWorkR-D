@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
+
 #sportsmain{
 	position: absolute;
 	top:30%;
@@ -32,7 +34,7 @@
 }
 
 #sportmaint{
-	font-family: "Century Gothic", Arial, Helvetica;
+	font-family: "Raleway", sans-serif;
 	position: absolute;
 	top: 35%;
 }
