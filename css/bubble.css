@@ -105,11 +105,11 @@ a:visited {
 .knowbob {
 	position: absolute;
 	-webkit-animation-delay: 10s; /* Chrome, Safari, Opera */
-    -webkit-animation-name: bobbing; /* Chrome, Safari, Opera */
+    -webkit-animation-name: bobing; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 10s;
-    animation-name: bobbing;
+    animation-name: bobing;
     animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
@@ -302,11 +302,11 @@ a:visited {
 .logbob {
 	position: absolute;
 	-webkit-animation-delay: 6s; /* Chrome, Safari, Opera */
-    -webkit-animation-name: bobbing; /* Chrome, Safari, Opera */
+    -webkit-animation-name: bobing; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 6s;
-    animation-name: bobbing;
+    animation-name: bobing;
     animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
@@ -426,11 +426,11 @@ a:visited {
 .sportbob {
 	position: absolute;
 	-webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
-    -webkit-animation-name: bobbing; /* Chrome, Safari, Opera */
+    -webkit-animation-name: bobing; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 3s;
-    animation-name: bobbing;
+    animation-name: bobing;
     animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
@@ -511,19 +511,19 @@ a:visited {
 	font-size: 2.5vw;
 }
 
-.bobbing {
+.bobing {
 	position: absolute;
-    -webkit-animation-name: bobbing; /* Chrome, Safari, Opera */
+    -webkit-animation-name: bobing; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
-    animation-name: bobbing;
+    animation-name: bobing;
     animation-duration: 70s;
     animation-iteration-count: infinite;
     color: black;
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes bobbing {
+@-webkit-keyframes bobing {
     0%   {left: 0px; top: 0px;}
     10%  {left: 4px; top: 10px;}
     20%  {left: 6px; top: -20px;}
@@ -538,7 +538,7 @@ a:visited {
 }
 
 /* Standard syntax */
-@keyframes bobbing {
+@keyframes bobing {
     0%   {left: 0px; top: 0px;}
     10%  {left: 4px; top: 10px;}
     20%  {left: 6px; top: -20px;}
@@ -613,7 +613,7 @@ a:visited {
         display:none;
     }
 
-    .bobbing {
+    .bobing {
         position: absolute;
         -webkit-animation-name: bobmain; /* Chrome, Safari, Opera */
         -webkit-animation-duration: 0s; /* Chrome, Safari, Opera */

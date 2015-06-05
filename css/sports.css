@@ -1,6 +1,30 @@
 @charset "utf-8";
 /* CSS Document */
 
+#sportsmain{
+	position: absolute;
+	top:30%;
+	left:43.5625%;
+	margin:0px;
+	padding:0px;
+	opacity: 0;
+	-webkit-animation: in 2s 1s forwards;
+	-moz-animation: in 2s 1s forwards;
+	-ms-animation: in 2s 1s forwards;
+	-o-animation: in 2s 1s forwards;
+	animation: in 2s 1s forwards;
+	/*-webkit-animation-name: in;
+	-moz-animation-name: in;
+	-ms-animation-name: in;
+	-o-animation-name: in;
+	animation-name: in;
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+	animation-duration: 2s;*/
+}
+
 #mbsports{
 	background-color: #fc3;
 	width: 150px;
@@ -13,8 +37,31 @@
 	top: 35%;
 }
 
-.actbubble{
-	width: 10vw;
-	height: 10vw;
-	background: #096;
+#toplist{
+	text-align: center;
+	margin-top: 8px;
+}
+
+li{
+	list-style-type: none;
+}
+
+@-webkit-keyframes in {
+	0%{
+		opacity: 0;
+	}
+	
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes in {
+	0%{
+		opacity: 0;
+	}
+	
+	100%{
+		opacity: 1;
+	}
 }
