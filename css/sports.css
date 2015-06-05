@@ -12,3 +12,9 @@
 	position: absolute;
 	top: 35%;
 }
+
+.actbubble{
+	width: 10vw;
+	height: 10vw;
+	background: #096;
+}
