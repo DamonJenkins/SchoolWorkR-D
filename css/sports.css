@@ -15,37 +15,34 @@
 	-ms-animation: in 2s 1s forwards;
 	-o-animation: in 2s 1s forwards;
 	animation: in 2s 1s forwards;
-	/*-webkit-animation-name: in;
-	-moz-animation-name: in;
-	-ms-animation-name: in;
-	-o-animation-name: in;
-	animation-name: in;
-	-webkit-animation-duration: 2s;
-	-moz-animation-duration: 2s;
-	-ms-animation-duration: 2s;
-	-o-animation-duration: 2s;
-	animation-duration: 2s;*/
 }
 
 #mbsports{
 	background-color: #fc3;
-	width: 150px;
-	height: 150px;
+	width: 12vw;
+	height: 12vw;
 }
 
 #sportmaint{
 	font-family: "Raleway", sans-serif;
 	position: absolute;
-	top: 35%;
+	top: 38%;
+}
+
+#ttdiv{
+	margin: auto auto;
 }
 
 #toplist{
 	text-align: center;
-	margin-top: 8px;
+	margin: 0 auto;
+	border-spacing: 2vw;
+	position: relative;
 }
 
-li{
-	list-style-type: none;
+.listlink{
+	font-size: 2vw;
+	font-family: "Raleway", sans-serif;
 }
 
 @-webkit-keyframes in {

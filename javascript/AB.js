@@ -43,7 +43,7 @@ function thing() {
 	setTimeout(function(){		
 		if(document.getElementById("address").innerHTML == "Good Morning" || document.getElementById("address").innerHTML == "Good Evening"){
 			$("#maintextid").css({
-			"top" : "33%"
+			"top" : "28%"
 		})}}, 2800)
 	setTimeout(function(){$("#address").animate({
 		"opacity" : "1",
