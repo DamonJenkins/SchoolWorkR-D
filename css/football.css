@@ -1,7 +1,8 @@
 body, html {
-	background-color: #b0ffff;
 	margin:0;
 	padding:0;
+	background-image: url("images/grass.jpg");
+	background: repeat-x;
 }
 
 .fonts {
@@ -67,31 +68,52 @@ a.whtlnk{
 a.blklnk {
 	text-decoration: none;
 	color:black;
+	font-size:1em;
 }
 
 a.blklnk:hover {
-	position: fixed;
-	color:#111;
-	font-size: 
+	-webkit-animation: know .25s;
+    -moz-animation: know .25s;
+    -ms-animation: know .25s;
+    -o-animation: know .25s; 
+    animation: know .25s;
 }
 
-a#fade {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
+@keyframes know {
+	from {color:black; font-size:1em;}
+	to {color: grey; font-size:1.1em;}
+}
 
-a#fade:hover {
-    opacity: 0.5;
+@-moz-keyframes know {
+	from {color:black; font-size:1em;}
+	to {color: grey; font-size:1.1em;}
+}
+
+@-webkit-keyframes know {
+	from {color:black;font-size: 1em;}
+	to {color: grey; font-size: 1.1em}
+}
+
+@-ms-keyframes know {
+	from {color:black; font-size: 1em;}
+	to {color: grey; font-size: 1.1em}
+}
+
+@-o-keyframes know {
+	from {color:black; font-size: 1em;}
+	to {color: grey; font-size: 1.1em;}
 }
 
 #account {
 	position: fixed;
-	left:0%;
-	width:20%;
-	background: #f5f5f5;
-	height:100%;
+	left: 0%;
+	width: 20%;
+	background: white;
+	height: 30%;
+	border: black solid 2px;
+	border-radius: 40px;
+	margin-top: 3%;
+	margin-left:15px;
 }
 
 #accountalign {
@@ -99,5 +121,25 @@ a#fade:hover {
 	padding-top:10px;
 	font-weight: bold;
 	text-align: center;
-	padding-left: 35%
+	margin-left: 35%;
+}
+
+#body {
+	height:40%;
+	width: 66%;
+	margin-right: 50px;
+	float: right;
+	background-color: red;
+	border:black solid 3.5px;
+	margin-top:3%;
+	font-weight: bold;
+	text-align: center;
+	padding-top:7px;
+}
+
+@media screen and (max-width:1000px) {
+
+	#account {
+		display: none;
+	}
 }
