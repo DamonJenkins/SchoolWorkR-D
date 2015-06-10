@@ -1,8 +1,6 @@
 body, html {
 	margin:0;
 	padding:0;
-	background-image: url("images/grass.jpg");
-	background: repeat-x;
 }
 
 .fonts {
@@ -81,27 +79,27 @@ a.blklnk:hover {
 
 @keyframes know {
 	from {color:black; font-size:1em;}
-	to {color: grey; font-size:1.1em;}
+	to {color: pink; font-size:1.1em;}
 }
 
 @-moz-keyframes know {
 	from {color:black; font-size:1em;}
-	to {color: grey; font-size:1.1em;}
+	to {color: pink; font-size:1.1em;}
 }
 
 @-webkit-keyframes know {
 	from {color:black;font-size: 1em;}
-	to {color: grey; font-size: 1.1em}
+	to {color: pink; font-size: 1.1em}
 }
 
 @-ms-keyframes know {
 	from {color:black; font-size: 1em;}
-	to {color: grey; font-size: 1.1em}
+	to {color: pink; font-size: 1.1em}
 }
 
 @-o-keyframes know {
 	from {color:black; font-size: 1em;}
-	to {color: grey; font-size: 1.1em;}
+	to {color: pink; font-size: 1.1em;}
 }
 
 #account {
@@ -125,7 +123,9 @@ a.blklnk:hover {
 }
 
 #body {
-	height:40%;
+	position: absolute;
+	left:30%;
+	height:70%;
 	width: 66%;
 	margin-right: 50px;
 	float: right;

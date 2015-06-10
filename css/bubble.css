@@ -32,8 +32,37 @@ a {
 	transition: color 0.3s;
 }
 
-a:hover{
-	color:white;
+a:hover {
+    -webkit-animation: know .25s;
+    -moz-animation: know .25s;
+    -ms-animation: know .25s;
+    -o-animation: know .25s; 
+    animation: know .25s;
+}
+
+@keyframes know {
+    from {color:black; font-size:1em;}
+    to {color: pink; font-size:1.1em;}
+}
+
+@-moz-keyframes know {
+    from {color:black; font-size:1em;}
+    to {color: pink; font-size:1.1em;}
+}
+
+@-webkit-keyframes know {
+    from {color:black;font-size: 1em;}
+    to {color: pink; font-size: 1.1em}
+}
+
+@-ms-keyframes know {
+    from {color:black; font-size: 1em;}
+    to {color: pink; font-size: 1.1em}
+}
+
+@-o-keyframes know {
+    from {color:black; font-size: 1em;}
+    to {color: pink; font-size: 1.1em;}
 }
 
 a:visited {
