@@ -1,6 +1,7 @@
 body, html {
 	margin:0;
 	padding:0;
+	background-color: #fc3;
 }
 
 .fonts {
@@ -67,46 +68,18 @@ a.blklnk {
 	text-decoration: none;
 	color:black;
 	font-size:1em;
+	transition: color 0.3s;
 }
 
 a.blklnk:hover {
-	-webkit-animation: know .25s;
-    -moz-animation: know .25s;
-    -ms-animation: know .25s;
-    -o-animation: know .25s; 
-    animation: know .25s;
-}
-
-@keyframes know {
-	from {color:black; font-size:1em;}
-	to {color: pink; font-size:1.1em;}
-}
-
-@-moz-keyframes know {
-	from {color:black; font-size:1em;}
-	to {color: pink; font-size:1.1em;}
-}
-
-@-webkit-keyframes know {
-	from {color:black;font-size: 1em;}
-	to {color: pink; font-size: 1.1em}
-}
-
-@-ms-keyframes know {
-	from {color:black; font-size: 1em;}
-	to {color: pink; font-size: 1.1em}
-}
-
-@-o-keyframes know {
-	from {color:black; font-size: 1em;}
-	to {color: pink; font-size: 1.1em;}
+	color:#555;
 }
 
 #account {
 	position: fixed;
 	left: 0%;
 	width: 20%;
-	background: white;
+	background: #ffb;
 	height: 30%;
 	border: black solid 2px;
 	border-radius: 40px;
