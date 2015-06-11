@@ -11,7 +11,7 @@
   font-weight: bold;
 }
 
-html body#main {
+#main{
 	padding:0;
 	margin:0;
 	width: 100%;
@@ -33,36 +33,7 @@ a {
 }
 
 a:hover {
-    -webkit-animation: know .25s;
-    -moz-animation: know .25s;
-    -ms-animation: know .25s;
-    -o-animation: know .25s; 
-    animation: know .25s;
-}
-
-@keyframes know {
-    from {color:black; font-size:1em;}
-    to {color: pink; font-size:1.1em;}
-}
-
-@-moz-keyframes know {
-    from {color:black; font-size:1em;}
-    to {color: pink; font-size:1.1em;}
-}
-
-@-webkit-keyframes know {
-    from {color:black;font-size: 1em;}
-    to {color: pink; font-size: 1.1em}
-}
-
-@-ms-keyframes know {
-    from {color:black; font-size: 1em;}
-    to {color: pink; font-size: 1.1em}
-}
-
-@-o-keyframes know {
-    from {color:black; font-size: 1em;}
-    to {color: pink; font-size: 1.1em;}
+    color: #fff;
 }
 
 a:visited {
