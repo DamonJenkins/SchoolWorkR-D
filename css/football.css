@@ -1,7 +1,12 @@
 body, html {
 	margin:0;
 	padding:0;
-	background-color: #fc3;
+	background-image:url(../images/grass.jpg);
+	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-color: #eee
 }
 
 .fonts {
@@ -19,7 +24,6 @@ body, html {
 	*/
 	width:100%;
 	color: #4c4c4c;
-	margin-left: 43.5%;
 	margin-top: 30px;
 }
 
@@ -114,5 +118,15 @@ a.blklnk:hover {
 
 	#account {
 		display: none;
+	}
+
+	#body {
+		position: absolute;
+		float:none;
+		margin-right:15px;
+		margin-left:15px;
+		margin-top:3%;
+		width:95%;
+		left:0px;
 	}
 }
