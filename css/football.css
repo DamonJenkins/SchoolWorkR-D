@@ -1,3 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
+
+@font-family {
+  font-family: "Century Gothic";
+  src: url("resources/fonts/gothic-b.eot");
+  font-weight: bold;
+}
+
+@font-family {
+  font-family: "Century Gothic";
+  src: url("resources/fonts/gothic-b.ttf") format("truetype");
+  font-weight: bold;
+}
+
 body, html {
 	margin:0;
 	padding:0;
