@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100,800);
 
 @font-family {
   font-family: "Century Gothic";
@@ -23,12 +23,40 @@ body, html {
 	background-color: #eee
 }
 
-.fonts {
-	font-family"Century Gothic", Arial, Helvetica;
+#backhome {
+	position: absolute;
+	border:solid 2px black;
+	background-color:lightblue;
+	width:200px;
+	height:50px;
+	left:45%;
+}
+
+a#accountbox {
+	text-decoration: none;
+	color:black;
 	font-weight: bold;
 }
 
-#Header {
+a#accountbox:hover; {
+	text-decoration: underline;
+	color:grey;
+}
+
+#main {
+	padding:15px 15%;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	margin-top: 
+}
+
+#fish {
+	position:absolute;
+	top:71%;
+	left:10%;
+}
+
+#header {
 	font-size: 3em;
 	font-family:Arial Black, Gadget, sans-serif;
 	/*
@@ -142,5 +170,9 @@ a.blklnk:hover {
 		margin-top:3%;
 		width:95%;
 		left:0px;
+	}
+
+	#fish {
+		display:none;
 	}
 }
