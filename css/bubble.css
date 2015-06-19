@@ -437,7 +437,18 @@ a:visited {
 	left: 0%;
 	right: 0%;
 	margin: 0px;
+    -webkit-animation: textwobble 10s 5s;
 }
+
+@-webkit-keyframes textwobble {
+    0% { -webkit-transform: rotate(0);}
+    20% { -webkit-transform: rotate(-5);}
+    40% { -webkit-transform: rotate(12);}
+    60% { -webkit-transform: rotate(-11);}
+    80% { -webkit-transform: rotate(9);}
+    100% { -webkit-transform: rotate(-5);}
+}
+
 
 #addressbubble{
 	background-color: #00CCFF;
