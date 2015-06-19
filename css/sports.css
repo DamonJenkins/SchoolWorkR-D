@@ -3,6 +3,10 @@
 
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
 
+html, body{
+	background-color: #F5CCF5;
+}
+
 #sportsmain{
 	position: absolute;
 	top:30%;
@@ -29,15 +33,17 @@
 	top: 38%;
 }
 
-#ttdiv{
-	margin: auto auto;
-}
-
 #toplist{
 	text-align: center;
 	margin: 0 auto;
 	border-spacing: 2vw;
 	position: relative;
+}
+
+#rightlist{
+	position: relative;
+	float: right;
+	text-align: center;
 }
 
 .listlink{
