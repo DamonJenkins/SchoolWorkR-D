@@ -23,7 +23,41 @@ body, html {
 	background-color: #eee;
 }
 
-#maintitle {
+#pagefade {
+	-webkit-animation: login 8s;
+    -moz-animation: login 8s;
+    -ms-animation: login 8s;
+    -o-animation: login 8s; 
+    animation: login 8s;
+}
+
+@keyframes login {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+@-moz-keyframes login {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+@-webkit-keyframes login {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+@-ms-keyframes login {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+@-o-keyframes login {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+
+#footballtitle {
 	font-size: 1.7em;
 	font-weight: bolder;
 }
@@ -41,8 +75,10 @@ body, html {
 	padding-top:10px;
 	padding-bottom:10px;
 	margin-right: 60px;
-	transition: .3s;
-	-webkit-transition: .3s;
+	color:black;
+	text-decoration: none;
+	transition: .2s;
+	-webkit-transition: .2`s;
 }
 
 #accountname {
@@ -56,14 +92,15 @@ a#backhome:hover {
 	margin-right: 62px;
 	margin-top: -4px;
 	background: #0ad;
+	text-decoration:underline;
 }
 
 #acntsetng {
 	text-decoration: none;
 	color:black;
 	font-weight: bold;
-	transition: .3s;
-	-webkit-transition: .3s;
+	transition: .2s;
+	-webkit-transition: .32s;
 }
 
 #acntsetng:hover {
@@ -72,7 +109,7 @@ a#backhome:hover {
 	font-size: 1.1em
 }
 
-#main {
+#footballbody {
 	padding:15px 15%;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
@@ -131,10 +168,9 @@ a.blklnk:hover {
 #body {
 	position: absolute;
 	left:30%;
-	height: auto;
+	height:auto;
 	width: 66%;
 	margin-right: 50px;
-	margin-bottom:;
 	float: right;
 	background-color: green;
 	border: black solid 2.5px;
@@ -144,7 +180,7 @@ a.blklnk:hover {
 	text-align: center;
 	padding-top:7px;
 	box-shadow: 4px 6px 7px #999;
-	padding-bottom: 5px;
+	padding-bottom: 50px;
 }
 
 @media screen and (max-width:1000px) {
