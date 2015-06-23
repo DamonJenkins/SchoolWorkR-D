@@ -33,17 +33,37 @@ html, body{
 	top: 38%;
 }
 
-#toplist{
+.toplist{
 	text-align: center;
 	margin: 0 auto;
 	border-spacing: 2vw;
 	position: relative;
 }
 
-#rightlist{
-	position: relative;
+.rightlist{
+	position: absolute;
 	float: right;
 	text-align: center;
+	right: 12vw;
+	bottom: 40%;
+	border-spacing: 2vw;
+}
+
+.leftlist{
+	position: absolute;
+	float: left;
+	text-align: center;
+	left: 12vw;
+	bottom: 40%;
+	border-spacing: 2vw;
+}
+
+.bottomdiv{
+	text-align: center;
+	left: 19vw;
+	border-spacing: 2vw;
+	position: absolute;
+	bottom: 5vh
 }
 
 .listlink{
