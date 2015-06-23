@@ -78,7 +78,7 @@ body, html {
 	color:black;
 	text-decoration: none;
 	transition: .2s;
-	-webkit-transition: .2`s;
+	-webkit-transition: .2s;
 }
 
 #accountname {
@@ -92,7 +92,7 @@ a#backhome:hover {
 	margin-right: 62px;
 	margin-top: -4px;
 	background: #0ad;
-	text-decoration:underline;
+	text-decoration:none;
 }
 
 #acntsetng {
