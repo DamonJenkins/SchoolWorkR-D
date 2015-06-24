@@ -20,7 +20,7 @@ body, html {
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 	background-position: bottom;
-	background-color: #777;
+	background-color: #fcf;
 }
 
 #pagefade {
@@ -65,7 +65,7 @@ body, html {
 #backhome {
 	border:solid 2px black;
 	border-radius: 15px;
-	background-color:lightblue;
+	background-color:#eee;
 	width:200px;
 	float: right;
 	font-weight: bold;
@@ -90,7 +90,7 @@ a#backhome:hover {
 	box-shadow: 4px 6px 8px #444;
 	margin-right: 62px;
 	margin-top: -4px;
-	background: #0ad;
+	background: #ccc;
 	text-decoration:none;
 }
 
@@ -117,13 +117,8 @@ a#backhome:hover {
 #header {
 	font-size: 3em;
 	font-family:Arial Black, Gadget, sans-serif;
-	/*
-	border-radius: 400px 400px;
-	background: blue;
-	padding: 5px 10px 5px 10px;
-	*/
 	width:100%;
-	color: #333;
+	color: black;
 	margin-top: 30px;
 }
 
@@ -148,7 +143,7 @@ a.blklnk:hover {
 	text-align: center;
 	left: 0%;
 	width: 20%;
-	background: lightblue;
+	background: #eee;
 	height: 30%;
 	border: black solid 2px;
 	border-radius: 15px;
@@ -166,9 +161,9 @@ a.blklnk:hover {
 
 #body {
 	position: absolute;
-	left:30%;
+	left:20%;
 	height:auto;
-	width: 66%;
+	width: 88%;
 	margin-right: 50px;
 	float: right;
 	margin-top:4%;
