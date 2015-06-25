@@ -20,7 +20,7 @@ body, html {
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 	background-position: bottom;
-	background-color: #fcf;
+	background-color: ##eeFFee;
 }
 
 #pagefade {
@@ -65,7 +65,7 @@ body, html {
 #backhome {
 	border:solid 2px black;
 	border-radius: 15px;
-	background-color:#eee;
+	background-color:#DAB6DA;
 	width:200px;
 	float: right;
 	font-weight: bold;
@@ -90,7 +90,7 @@ a#backhome:hover {
 	box-shadow: 4px 6px 8px #444;
 	margin-right: 62px;
 	margin-top: -4px;
-	background: #ccc;
+	background: #FFCCFF;
 	text-decoration:none;
 }
 
