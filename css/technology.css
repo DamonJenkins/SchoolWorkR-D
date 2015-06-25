@@ -4,17 +4,17 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
 
 html, body{
-	background-color: #F5CCF5;
+	background-color: #AEFFB0;
 }
 
 .hidden{
 	visibility: hidden;
 }
 
-#sportsmain{
+#techmain{
 	position: absolute;
-	bottom:40%;
-	left:43.5625%;
+	bottom:38%;
+	left:42.5vw;
 	margin:0px;
 	padding:0px;
 	opacity: 0;
@@ -25,16 +25,17 @@ html, body{
 	animation: in 2s 1s forwards;
 }
 
-#mbsports{
-	background-color: #fc3;
-	width: 12vw;
-	height: 12vw;
+#mbtech{
+	background-color: #CC0099;
+	width: 15vw;
+	height: 15vw;
 }
 
-#sportmaint{
+#techmaint{
 	font-family: "Raleway", sans-serif;
 	position: absolute;
-	top: 38%;
+	top: 40%;
+	text-shadow: 0px 0.5px 0px white,  0px -1px 0px white, 0.5px 0px 0px white, -0.5px 0px 0px white;
 }
 
 .toplist{

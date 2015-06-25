@@ -4,14 +4,14 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
 
 html, body{
-	background-color: #F5CCF5;
+	background-color: #BAFEFF;
 }
 
 .hidden{
 	visibility: hidden;
 }
 
-#sportsmain{
+#knowmain{
 	position: absolute;
 	bottom:40%;
 	left:43.5625%;
@@ -25,13 +25,13 @@ html, body{
 	animation: in 2s 1s forwards;
 }
 
-#mbsports{
-	background-color: #fc3;
-	width: 12vw;
-	height: 12vw;
+#mbknow{
+	background-color: red;
+	width: 14vw;
+	height: 14vw;
 }
 
-#sportmaint{
+#knowmaint{
 	font-family: "Raleway", sans-serif;
 	position: absolute;
 	top: 38%;
