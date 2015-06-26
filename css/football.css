@@ -20,7 +20,11 @@ body, html {
 	background-repeat: repeat-x;
 	background-attachment: fixed;
 	background-position: bottom;
-	background-color: ##eeFFee;
+	background-color: #ddFFdd;
+}
+
+#Homebuttonfade {
+
 }
 
 #pagefade {
@@ -99,11 +103,11 @@ a#backhome:hover {
 	color:black;
 	font-weight: bold;
 	transition: .2s;
-	-webkit-transition: .32s;
+	-webkit-transition: .2s;
 }
 
 #acntsetng:hover {
-	text-decoration: underline;
+	border-bottom:1px solid;
 	color:#333;
 	font-size: 1.1em
 }
@@ -143,7 +147,7 @@ a.blklnk:hover {
 	text-align: center;
 	left: 0%;
 	width: 20%;
-	background: #eee;
+	background: #DAB6DA;
 	height: 30%;
 	border: black solid 2px;
 	border-radius: 15px;
