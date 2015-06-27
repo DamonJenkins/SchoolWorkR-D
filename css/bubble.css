@@ -544,6 +544,12 @@ a:visited {
 	filter: blur(0.1vw);
 }
 
+#handtest {
+    text-align: center;
+    display:none;
+    content: "This is a css content test (Only visable on mobile.)";
+}
+
 /* The specific pages */
 
 .bodyfont {
@@ -553,7 +559,13 @@ a:visited {
     padding-top: 1%;
 }
 
-/* The specific pages End*/
+/*End*/
+
+@media handheld {
+    #handtest {
+        display:table;
+    }
+}
 
 @media screen and (max-width:820px) {
     #screenwarn {

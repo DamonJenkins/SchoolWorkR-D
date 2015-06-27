@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			#sentence:hover {
+				color:red;
+				text-decoration: none;
+				-webkit-animation: FadeUnderline 2s;
+			    -moz-animation: FadeUnderline 2s;
+			    -ms-animation: FadeUnderline 2s;
+			    -o-animation: FadeUnderline 2s; 
+			    animation: FadeUnderline 2s;
+			}
+
+			@keyframes FadeUnderline {
+			    from {text-decoration: none;}
+			    to {text-decoration: underline;}
+			}
+
+			@-moz-keyframes FadeUnderline {
+			    from {text-decoration: none;}
+			    to {text-decoration: underline;}
+			}
+
+			@-webkit-keyframes FadeUnderline {
+			    from {text-decoration: none;}
+			    to {text-decoration: underline;}
+			}
+
+			@-ms-keyframes FadeUnderline {
+			    from {text-decoration: none;}
+			    to {text-decoration: underline;}
+			}
+
+			@-o-keyframes FadeUnderline {
+			    from {text-decoration: none;}
+			    to {text-decoration: underline;}
+			}
+
+		</style>
+	<body>
+		This is a <a href="" id="sentence">sentence</a><br><br>​
+	</body>
+</html>

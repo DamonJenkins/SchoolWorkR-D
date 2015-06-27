@@ -23,10 +23,6 @@ body, html {
 	background-color: #ddFFdd;
 }
 
-#Homebuttonfade {
-
-}
-
 #pagefade {
 	-webkit-animation: login 8s;
     -moz-animation: login 8s;
