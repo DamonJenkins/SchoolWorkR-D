@@ -4,14 +4,14 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
 
 html, body{
-	background-color: #F5CCF5;
+	background-color: #CF5F5F;
 }
 
 .hidden{
 	visibility: hidden;
 }
 
-#sportsmain{
+#artdesmain{
 	position: absolute;
 	bottom:40%;
 	left:43.5625%;
@@ -25,16 +25,16 @@ html, body{
 	animation: in 2s 1s forwards;
 }
 
-#mbsports{
-	background-color: #fc3;
+#mbartdes{
+	background-color: #33CCCC;
 	width: 12vw;
 	height: 12vw;
 }
 
-#sportmaint{
+#artdesmaint{
 	font-family: "Raleway", sans-serif;
 	position: absolute;
-	top: 38%;
+	top: 25%;
 }
 
 .toplist{
