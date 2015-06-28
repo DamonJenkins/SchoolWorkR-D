@@ -127,7 +127,7 @@ a:visited {
 @keyframes know {
     0% { opacity: 0; top: 110%;}
     33% {opacity: 1; top: 20%;}
-    100%   {top:50%;}
+    100% {top:50%;}
 }
 
 @-moz-keyframes know {
@@ -168,32 +168,32 @@ a:visited {
 
 @keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 1; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity: 1; top:40%;}
+    100% {top:65%;}
 }
 
 @-moz-keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 1; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity: 1; top:40%;}
+    100%   {top:65%;}
 }
 
 @-webkit-keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 1; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity: 1; top:40%;}
+    100% {top:65%;}
 }
 
 @-ms-keyframes login {
     0% { opacity: 0; top: 700px;}
-    33% {opacity: 1; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    33% {opacity: 1; top:40%;}
+    100% {top:65%;}
 }
 
 @-o-keyframes login {
-    0% { opacity: 0; top: 700px;}
-    33% {opacity: 1; top:300px;}
-    100%   { opacity: 1; top:65%;}
+    0% {opacity: 0; top: 700px;}
+    33% {opacity: 1; top:40%;}
+    100% {top:65%;}
 }
 
 .noClick#logbubble:hover > #logtext{
@@ -243,16 +243,45 @@ a:visited {
 }
 
 .logbob {
+    top:65%;
 	position: absolute;
 	-webkit-animation-delay: 6s; /* Chrome, Safari, Opera */
-    -webkit-animation-name: bobing; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 70s; /* Chrome, Safari, Opera */
+    -webkit-animation-name: loggbob; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 10s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     animation-delay: 6s;
-    animation-name: bobing;
-    animation-duration: 70s;
+    animation-name: loggbob;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     color: black;
+}
+
+@-webkit-keyframes loggbob {
+    0%   {left: 0px; top: 65%;}
+    10%  {left: 4px; top: 10px;}
+    20%  {left: 6px; top: -20px;}
+    30%  {left: 10px; top: 18px;}
+    40%  {left: 16px; top: -7px;}
+    50%  {left: 20px; top: 22px;}
+    60%  {left: 20px; top: -12px;}
+    70%  {left: 15px; top: 9px;}
+    80%  {left: 9px top: -15px;}
+    90%  {left: 4px; top: 25px;}
+    100% {left: 0px; top: 0px;}
+}
+
+@keyframes loggbob {
+    0%   {left: 0px; top: 65%;}
+    10%  {left: 4px; top: 10px;}
+    20%  {left: 6px; top: -20px;}
+    30%  {left: 10px; top: 18px;}
+    40%  {left: 16px; top: -7px;}
+    50%  {left: 20px; top: 22px;}
+    60%  {left: 20px; top: -12px;}
+    70%  {left: 15px; top: 9px;}
+    80%  {left: 9px top: -15px;}
+    90%  {left: 4px; top: 25px;}
+    100% {left: 0px; top: 0px;}
 }
 
 #logtext {
@@ -543,6 +572,125 @@ a:visited {
 	-o-filter: blur(0.1vw);
 	filter: blur(0.1vw);
 }
+
+/* Year 7 & 8 */
+
+#year78pos{
+    position: absolute;
+    top:12%;
+    left: 36%;
+    margin:0px;
+    -webkit-animation: juniorin 6s;
+    -moz-animation: juniorin 6s;
+    -ms-animation: juniorin 6s;
+    -o-animation: juniorin 6s;
+    animation: juniorin 6s;
+}
+
+@keyframes juniorin {
+    0% {opacity: 0; top: 0px;}
+    33% {opacity: 1; top:200px;}
+    100% {top:12%;}
+}
+
+@-moz-keyframes juniorin {
+    0% {opacity: 0; top: 0px;}
+    33% {opacity: 1; top:200px;}
+    100% {top:12%;}
+}
+
+@-webkit-keyframes juniorin {
+    0% {opacity: 0; top: 0px;}
+    33% {opacity: 1; top:200px;}
+    100% {top:12%;}
+}
+
+@-ms-keyframes juniorin {
+    0% {opacity: 0; top: 0px;}
+    33% {opacity: 1; top:200px;}
+    100% {top:12%;}
+}
+
+@-o-keyframes juniorin {
+    0% {opacity: 0; top: 0px;}
+    33% {opacity: 1; top:200px;}
+    100% {top:12%;}
+}
+
+.noClick#year78bubble:hover > #sporttext{
+    color:#fff;
+    text-shadow: 0px 0px 4px #000;
+}
+
+.noClick#year78bubble:hover::before{
+    opacity: 1;
+}
+
+
+.noClick#year78bubble:hover{
+    box-shadow: 5px 20px 15px 3px #000;
+    width: 8vw;
+    height: 8vw;
+    font-size: 1.6vw;
+    border: 1px solid #00cc00;
+}
+
+.noClick#year78bubble{
+    box-shadow: 2px 4px 10px #000;
+}
+
+#year78bubble {
+    overflow:hidden;
+    padding: 0px;
+    margin:0px;
+    text-align: center;
+    border: solid #000;
+    border-radius: 50%;
+    width:7.208vw;
+    height: 7.208vw;
+    font-size: 1.4vw;
+    background-color: blue;
+    -webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+    -moz-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+    -ms-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+    -o-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+    transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
+
+}
+
+#year78bubble::before {
+    background-image: url(../images/year78bg.jpg);
+}
+
+#year78text{
+    -webkit-transition: top 0.65s, color 0.65s;
+    position: absolute;
+    top: 35%;
+    left:0%;
+    right:0%;
+    margin:0px;
+    color:#000;
+    z-index: 2;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+}
+
+.year78bob {
+    position: absolute;
+    -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
+    -webkit-animation-name: bobing; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 50s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+    animation-delay: 1s;
+    animation-name: bobing;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    color: black;
+    -webkit-animation-play-state:running;
+    animation-play-state:running;
+}
+
+/* End of Year 7 & 8 */
 
 #handtest {
     text-align: center;
