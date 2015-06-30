@@ -56,6 +56,39 @@ body, html {
     100%   {opacity: 1;}
 }
 
+#Homebuttonfade {
+	-webkit- animations: leftin 2s;
+	-moz-animation: leftin 2s;
+    -ms-animation: leftin 2s;
+    -o-animation: leftin 2s; 
+	animation: leftin 2s;
+}
+
+@keyframes leftin {
+    0% {}
+    100%   {}
+}
+
+@-moz-keyframes leftin {
+    0% { }
+    100%   {}
+}
+
+@-webkit-keyframes leftin {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+@-ms-keyframes leftin {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
+@-o-keyframes leftin {
+    0% {opacity: 0;}
+    100%   {opacity: 1;}
+}
+
 
 #footballtitle {
 	font-size: 1.7em;

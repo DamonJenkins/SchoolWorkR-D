@@ -1,4 +1,4 @@
-function thing() {
+/* function thing() {
 	isMobile()
 	ifMobile()
 }
