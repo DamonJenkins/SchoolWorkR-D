@@ -24,6 +24,14 @@ function sporttran(){
 		"opacity" : "0"	
 	}, 1800)
 
+	$("#year78pos").animate({
+	"left" : "-10%"
+	}, 2000)
+	
+	$("#year78bubble").animate({
+		"opacity" : "0"	
+	}, 1800)
+
 	if ($("#sportbubble").hasClass("noClick")){
 		$("#sportbubble").toggleClass("noClick")
 		$(".sportLink").css({
@@ -46,37 +54,14 @@ function sportshide(){
 		"visibilty" : "hidden"
 	})
 
-}
-
-function sporttranb(){
-	$("#sportpos").animate({
-		"left" : ($(window).width() - $("#sportbubble").width()) / 2
-	}, 1800)
-	
-	$("#sporttext").animate({
-		"opacity" : "0"
+	$("#year78bubble").css({
+		"visibilty" : "hidden"
 	})
-	
-	$(".sportbob").css({
-		"-webkit-animation-play-state" : "paused",
-		"animation-play-state" : "paused"
-	})
-	
-	$("#sportbubble").animate({
-		"border-width" : "0"
-	})
-}
-
-function sportexpand(){
-	$("#sportbubble").animate({
-	}, 2500)
-	
 }
 
 function sports(){
 	sporttran()
 	setTimeout(sportshide, 2050)
-	setTimeout(sporttranb, 2100)
 	setTimeout(function(){
 		window.location = "sports.html"
 	}, 5000)
@@ -107,6 +92,14 @@ function knowtran(){
 		"opacity" : "0"	
 	}, 1800)
 
+	$("#year78pos").animate({
+	"left" : "-10%"
+	}, 2000)
+	
+	$("#year78bubble").animate({
+		"opacity" : "0"	
+	}, 1800)
+
 	if ($("#knowbubble").hasClass("noClick")){
 		$("#knowbubble").toggleClass("noClick")
 		$(".knowLink").css({
@@ -131,28 +124,78 @@ function knowhide(){
 
 }
 
-function knowtranb(){
-	$("#knowpos").animate({
-		"left" : ($(window).width() - $("#knowbubble").width()) / 2,
-		"margin-bottom" : (($(window).height() - $("#knowbubble").height()) / 2) / 2
-	}, 1800)
-	
-	$("#knowtext").animate({
-		"opacity" : "0"
-	})
-	
-	$(".knowbob").css({
-		"-webkit-animation-play-state" : "paused",
-		"animation-play-state" : "paused"
-	})
-	
-	$("#knowbubble").animate({
-		"border-width" : "0"
-	})
-}
-
 function know(){
 	knowtran()
 	setTimeout(knowhide, 2050)
-	setTimeout(knowtranb, 2100)
+	setTimeout(function(){
+		window.location = "knowledge.html"
+	}, 5000)
+}
+
+function year78tran(){
+	$("#mainpos").animate({
+		"left" : "-10%"
+		}, 2000)
+		
+	$(".bobing").animate({
+		"opacity" : "0"	
+	}, 1800)	
+		
+	$("#logpos").animate({
+		"left" : "-10%"
+		}, 2000)
+		
+	$("#logbubble").animate({
+		"opacity" : "0"
+	}, 1800)
+	
+	$("#knowpos").animate({
+	"left" : "-10%"
+	}, 2000)
+	
+	$("#knowbubble").animate({
+		"opacity" : "0"	
+	}, 1800)
+
+	$("#sportpos").animate({
+	"left" : "-10%"
+	}, 2000)
+	
+	$("#sportbubble").animate({
+		"opacity" : "0"	
+	}, 1800)
+
+	if ($("#sportbubble").hasClass("noClick")){
+		$("#sportbubble").toggleClass("noClick")
+		$(".sportLink").css({
+			"cursor" : "default"
+		});
+	}
+
+}
+
+function year78hide(){
+	$("#logbubble").css({
+		"visibilty" : "hidden"
+	})
+	
+	$(".bobing").css({
+		"visibility" : "hidden"	
+	})
+	
+	$("#knowbubble").css({
+		"visibilty" : "hidden"
+	})
+
+	$("#year78bubble").css({
+		"visibilty" : "hidden"
+	})
+}
+
+function year78(){
+	year78tran()
+	setTimeout(year78hide, 2050)
+	setTimeout(function(){
+		window.location = "year78.html"
+	}, 5000)
 }
