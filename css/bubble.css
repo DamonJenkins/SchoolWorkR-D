@@ -1,4 +1,6 @@
+/*Im ports the font "railway"*/
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,600,100);
+
 @font-family {
   font-family: "Century Gothic";
   src: url("resources/fonts/gothic-b.eot");
@@ -12,6 +14,7 @@
   font-weight: bold;
 }
 
+/*Positions, not visable and a pink/red background*/
 #main {
 	padding:0;
 	margin:0;
@@ -21,30 +24,37 @@
 	overflow: hidden;
 }
 
+/*removes margin moves it down and aligns it to the center*/
 #address {
 	margin: 0 0 0 0;
 	top: 35%;
 	text-align:center;
 }
 
+/*add animations to all links, removes underline and makes the text blakc*/
 a {
 	text-decoration: none;
 	color:black;
 	transition: color 0.3s;
 }
 
+/*chanegs color of the text after hover*/
 a:hover {
     color: #fff;
 }
 
+/*removes the underline on visited and keeps the text black*/
 a:visited {
+    color:black;
 	text-decoration: none;
 }
 
+/*has no display on text*/
 #screenwarn {
 	display:none;
 }
 
+/*adds animation to the knowlege bubble*/
 .knowbob {
 	position: absolute;
 	-webkit-animation-delay: 10s; /* Chrome, Safari, Opera */
@@ -58,15 +68,18 @@ a:visited {
     color: black;
 }
 
+/* Damon */
 .noClick#knowbubble:hover > #knowtext {
 	color:#fff;
 	text-shadow: 0px 0px 4px #000;
 }
 
+/* Damon */
 .noClick#knowbubble:hover::before {
 	opacity: 1;
 }
 
+/*changes the size of the bubles when hovered over*/
 .noClick#knowbubble:hover {
 	box-shadow: 5px 20px 15px 3px #000;
 	width:10.19vw;
@@ -75,10 +88,12 @@ a:visited {
 	border: 1px solid #3399FF;
 }
 
+/*adds shadow*/
 .noClick#knowbubble{
 	box-shadow: 2px 4px 10px #000;
 }
 
+/*positions the text*/
 #knowtext {
 	left: 8%;
 	top: 42%;
@@ -90,6 +105,7 @@ a:visited {
 	font-weight: bold;
 }
 
+/*sizes the bubble and adds a shadow and animates it*/
 #knowbubble {
 	padding: 0px;
 	margin:0px;
@@ -107,10 +123,12 @@ a:visited {
 	transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 }
 
+/*change the background image on hover*/
 #knowbubble::before {
     background-image: url(../images/knowbg.jpg);
 }
 
+/*positions and animates the bubble*/
 #knowpos {
 	position: absolute;
 	top: 50%;
@@ -123,6 +141,7 @@ a:visited {
     animation: know 8s;
 }
 
+/*the animation of the knowpos*/
 @keyframes know {
     0% { opacity: 0; top: 110%;}
     33% {opacity: 1; top: 20%;}
@@ -153,6 +172,7 @@ a:visited {
     100%   {top:50%;}
 }
 
+/*positions the buble and animates it*/
 #logpos {
 	position: absolute;
 	top: 65%;
@@ -165,6 +185,7 @@ a:visited {
     animation: login 8s;
 }
 
+/*the code for the animations*/
 @keyframes login {
     0% { opacity: 0; top: 700px;}
     33% {opacity: 1; top:40%;}
@@ -195,16 +216,18 @@ a:visited {
     100% {top:65%;}
 }
 
+/*Damon*/
 .noClick#logbubble:hover > #logtext{
 	color:#fff;
 	text-shadow: 0px 0px 4px #000;
 }
 
+/*Damon*/
 .noClick#logbubble:hover::before{
 	opacity: 1;
 }
 
-
+/*add a shadow and sizes the text*/
 .noClick#logbubble:hover{
 	box-shadow: 5px 20px 15px 3px #000;
 	width: 7.8vw;
@@ -213,10 +236,12 @@ a:visited {
 	border: 1px solid #3399FF;
 }
 
+/*Damon*/
 .noClick#logbubble{
 	box-shadow: 2px 4px 10px #000;
 }
 
+/*sizes the bubbble, animates it and decorates it*/
 #logbubble {
 	overflow:hidden;
 	text-align: center;
@@ -237,10 +262,12 @@ a:visited {
 	transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
 }
 
+/*adds the background image on have for the bubble*/
 #logbubble::before{
     background-image: url(../images/logbg.jpg);	
 }
 
+/*animates the bobbing effect*/
 .logbob {
     top:65%;
 	position: absolute;
@@ -255,6 +282,7 @@ a:visited {
     color: black;
 }
 
+/*bobbing effect animations*/
 @-webkit-keyframes loggbob {
     0%   {left: 0px; top: 65%;}
     10%  {left: 4px; top: 10px;}
@@ -283,6 +311,7 @@ a:visited {
     100% {left: 0px; top: 0px;}
 }
 
+/*positions the text and colors it */
 #logtext {
 	-webkit-transition: top 0.65s, color 0.65s;
 	position: absolute;
@@ -293,7 +322,7 @@ a:visited {
 	font-weight: bold;
 }
 
-
+/*position the bubble*/
 #sportpos{
 	position: absolute;
 	top:22%;
@@ -306,6 +335,7 @@ a:visited {
     animation: sportin 9s;
 }
 
+/*the animation code*/
 @keyframes sportin {
     0% { opacity: 0; top: 500px;}
     33% {opacity: 1; top:100px;}
@@ -336,16 +366,18 @@ a:visited {
     100%   { opacity: 1; top:22%;}
 }
 
+/*Damon*/
 .noClick#sportbubble:hover > #sporttext{
 	color:#fff;
 	text-shadow: 0px 0px 4px #000;
 }
 
+/*Damon*/
 .noClick#sportbubble:hover::before{
 	opacity: 1;
 }
 
-
+/*axpands shadow on hover*/
 .noClick#sportbubble:hover{
 	box-shadow: 5px 20px 15px 3px #000;
 	width: 6vw;
@@ -354,10 +386,12 @@ a:visited {
 	border: 1px solid #00cc00;
 }
 
+/*adds a shadow*/
 .noClick#sportbubble{
 	box-shadow: 2px 4px 10px #000;
 }
 
+/*Rugby*/
 #sportbubble {
 	overflow:hidden;
 	padding: 0px;
