@@ -2,66 +2,96 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+    	<!--The text within the tag "title" will be shown on the tab-->
 		<title>OC Activity Hub</title>
+		<!--This is for the robots that runs through the site-->
 		<meta name="robots" content="index, follow">
+		<!-- This is the the description on google -->
 		<meta name="description" content="Just a test for the animations">
 		<link rel="shortcut icon" href=".png">
+		<!--These "link" tags are linking the css to the HTML-->
 		<link rel="stylesheet" type="text/css" href="css/bubble.css">
 		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<!--These "script" tags are linking the javascript to the HTML-->
 		<script src="javascript/AB.js"></script>
         <script src="javascript/Animationjs.js"></script>
         <script src="javascript/sportsjs.js"></script>
 	</head>
+	<!--"Body" mark's the beginning of the site its self. on load starts the javascript and "mainbody" decorate the background and positions some things-->
 	<body id="main" class="mainbody" onLoad="thing()">
+		<!--it adds a fading effect to the page-->
         <div class="transitiondiv">
         </div>
+        <!--The id screen warn isnt shown unless the pages is smaller than 820px-->
 		<div id="screenwarn">
 			Your screen size is less than 820 pixels in width. All animations have stopped. For optimal quality go to a larger screen
 		</div>
+		<!--this positions the main bubble of the css-->
 		<div id="mainpos">
+			<!--addressbubble automatocally resizes the bubble dependingon screen width and bobing allows the bubble to bob. main bubble sizes and position-->
 			<div id="addressbubble" class="bobing mainbubble">
+				<!--This further positions the text and colors it-->
 				<div id="maintextid" class="maintext">
+					<!--further positions it and removes the padding-->
 					<p id="address">Welcome</p>
 				</div>
 			</div>
 		</div>
+		<!--This positions the bubble-->
 		<div id="sportpos">
+			<!--activates the javascript and links it to the naxt page-->
 	        <a onClick="sports()" class="sportLink" href="sports.html">
+	        	<!--this sized the bubble and adds the background and animates the bubble-->
 				<div id="sportbubble" class="sportbob noClick bubble">
+					<!--positions, sizes and colours the text-->
 					<div id="sporttext">
+						<!--currently does nothing-->
 						<span id="sportspan">Sports</span>
 					</div>
 				</div>
             </a>
 		</div>
+		<!--This positions the bubble-->
 		<div id="logpos">
+			<!--activates the javascript and links it to the naxt page-->
 	        <a onClick="log()" class="logLink" href="#">
+	        	<!--this sized the bubble and adds the background and animates the bubble-->
 				<div id="logbubble" class="logbob noClick bubble">
+					<!--positions, sizes and colours the text-->
 					<div id="logtext">
+						<!--currently does nothing-->
 						<span id="logspan">Login/<br>Sign Up</span>
 					</div>
 				</div>
             </a>
 		</div>
+		<!--This positions the bubble-->
 		<div id="knowpos">
+			<!--activates the javascript and links it to the naxt page-->
 	        <a onClick="know()" class="knowLink" href="knowledge.html">
+	        	<!--this sized the bubble and adds the background and animates the bubble-->
 				<div id="knowbubble" class="knowbob noClick bubble">
+					<!--positions, sizes and colours the text-->
 					<div id="knowtext">
+						<!--currently does nothing-->
 						<span id="knowspan">Knowledge</span>
 					</div>
 				</div>
             </a>
-		</div>
+		</div>	
+		<!--This positions the bubble-->
 		<div id="year78pos">
+			<!--activates the javascript and links it to the naxt page-->
 	        <a onClick="year78()" class="year78Link" href="year78.html">
+	        	<!--this sized the bubble and adds the background and animates the bubble-->
 				<div id="year78bubble" class="year78bob noClick bubble">
+					<!--positions, sizes and colours the text-->
 					<div id="sporttext">
+						<!--currently does nothing-->
 						<span id="sportspan">Junior</span>
 					</div>
 				</div>
             </a>
-		</div>
-		<div id="adbottom">
 		</div>
 	</body>
 </html>
