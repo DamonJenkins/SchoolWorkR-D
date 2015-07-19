@@ -377,7 +377,7 @@ a:visited {
 	opacity: 1;
 }
 
-/*axpands shadow on hover*/
+/*expands shadow on hover*/
 .noClick#sportbubble:hover{
 	box-shadow: 5px 20px 15px 3px #000;
 	width: 6vw;
@@ -391,7 +391,7 @@ a:visited {
 	box-shadow: 2px 4px 10px #000;
 }
 
-/*Rugby*/
+/*Adds a bubble, sizes it based on screen width and adds a border*/
 #sportbubble {
 	overflow:hidden;
 	padding: 0px;
@@ -411,10 +411,12 @@ a:visited {
 
 }
 
+/*changes background on the bubble on hover*/
 #sportbubble::before {
     background-image: url(../images/sportsbg.jpg);
 }
 
+/*positions text, animates it abd adds a font*/
 #sporttext{
 	-webkit-transition: top 0.65s, color 0.65s;
 	position: absolute;
@@ -428,6 +430,7 @@ a:visited {
 	font-weight: bold;
 }
 
+/*adds the bobbing animattion to the bubble*/
 .sportbob {
 	position: absolute;
 	-webkit-animation-delay: 3s; /* Chrome, Safari, Opera */
@@ -443,6 +446,7 @@ a:visited {
 	animation-play-state:running;
 }
 
+/*positions and animates*/
 #mainpos{
 	position: absolute;
 	top:30%;
@@ -456,6 +460,7 @@ a:visited {
     animation: fadein 7s;
 }
 
+/*animation code*/
 @keyframes fadein {
     0% { opacity: 0; top: 500px;}
     33% {opacity: 1; top:100px;}
@@ -486,12 +491,14 @@ a:visited {
     100%   { opacity: 1; top:30%;}
 }
 
+/*positions and adds a font*/
 #maintextid{
 	top: 40%;
 	font-family: "Century Gothic", Arial, Helvetica;
 	font-weight: bold;
 }
 
+/*positions*/
 .maintext {
 	position: absolute;
     text-align: center;
@@ -511,13 +518,14 @@ a:visited {
     100% { -webkit-transform: rotate(-5);}
 }
 
-
+/*changes sizes of tings depending on screen width*/
 #addressbubble{
 	background-color: #00CCFF;
 	width: 13.2vw;
 	height: 13.2vw;
 }
 
+/*Changes font size of screen width and positions */
 .mainbubble {
 	padding: 0px;
 	margin:0px;
@@ -527,6 +535,7 @@ a:visited {
 	font-size: 2.5vw;
 }
 
+/*This animates the bobing animations.*/
 .bobing {
 	position: absolute;
     -webkit-animation-name: bobing; /* Chrome, Safari, Opera */
@@ -538,6 +547,7 @@ a:visited {
     color: black;
 }
 
+/*This is the code for the bobing animations*/
 /* Chrome, Safari, Opera */
 @-webkit-keyframes bobing {
     0%   {left: 0px; top: 0px;}
@@ -568,6 +578,7 @@ a:visited {
     100% {left: 0px; top: 0px;}
 }
 
+/*stops animations when hovered over*/
 .bubble:hover{
 	-webkit-animation-play-state: paused;
 	-moz-animation-play-state: paused;
@@ -576,6 +587,7 @@ a:visited {
 	animation-play-state: paused;
 }
 
+/*Damon*/
 .bubble::before {
     content: '';
     display: block;
@@ -608,6 +620,7 @@ a:visited {
 
 /* Year 7 & 8 */
 
+/*This animates the bubble and positions it*/
 #year78pos{
     position: absolute;
     top:12%;
@@ -620,6 +633,7 @@ a:visited {
     animation: juniorin 6s;
 }
 
+/*The code for the animation (fading in)*/
 @keyframes juniorin {
     0% {opacity: 0; top: 0px;}
     33% {opacity: .9; top:200px;}
@@ -634,7 +648,7 @@ a:visited {
 
 @-webkit-keyframes juniorin {
     0% {opacity: 0; top: 0px;}
-    33% {opacity: .9; top:200px;}
+    33% {opacity:.9; top:200px;}
     100% {opacity:1; top:12%;}
 }
 
@@ -650,16 +664,18 @@ a:visited {
     100% {opacity:1; top:12%;}
 }
 
+/*damon*/
 .noClick#year78bubble:hover > #sporttext{
     color:#fff;
     text-shadow: 0px 0px 4px #000;
 }
 
+/*damon*/
 .noClick#year78bubble:hover::before{
     opacity: 1;
 }
 
-
+/*extends the shadw on hover and changes the text size*/
 .noClick#year78bubble:hover{
     box-shadow: 5px 20px 15px 3px #000;
     width: 8vw;
@@ -668,10 +684,12 @@ a:visited {
     border: 1px solid #00cc00;
 }
 
+/*adds a shadow*/
 .noClick#year78bubble{
     box-shadow: 2px 4px 10px #000;
 }
 
+/*The bubble size, animates it and changes the font size*/
 #year78bubble {
     overflow:hidden;
     padding: 0px;
@@ -683,14 +701,14 @@ a:visited {
     height: 7.208vw;
     font-size: 1.4vw;
     background-color: #FF6600;
-    -webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
-    -moz-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
-    -ms-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
-    -o-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
-    transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.7s, border 0.6s;
-
+    -webkit-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.6s, border 0.6s;
+    -moz-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.6s, border 0.6s;
+    -ms-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.6s, border 0.6s;
+    -o-transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.6s, border 0.6s;
+    transition: box-shadow 0.6s, width 0.6s, height 0.6s, font-size 0.6s, border 0.6s;
 }
 
+/*changes background image of background on hover*/
 #year78bubble::before {
     background-image: url(../images/Junior.jpg);
 }
@@ -708,6 +726,7 @@ a:visited {
     font-weight: bold;
 }
 
+/*adds the bobbing animation to the bubble*/
 .year78bob {
     position: absolute;
     -webkit-animation-delay: 1s; /* Chrome, Safari, Opera */
@@ -725,6 +744,7 @@ a:visited {
 
 /* End of Year 7 & 8 */
 
+/*this was to test hand held detection*/
 #handtest {
     text-align: center;
     display:none;
@@ -742,16 +762,14 @@ a:visited {
 
 /*End*/
 
-#adbottom {
-    top:80%;
-}
-
+/*test for hand held*/
 @media handheld {
     #handtest {
         display:table;
     }
 }
 
+/*after the screen is wider than 820px change these things in these id's*/
 @media screen and (max-width:820px) {
     #screenwarn {
         display: table;
