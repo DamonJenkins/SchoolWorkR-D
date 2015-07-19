@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script type="text/javascript">
+			$("#transitiondiv").css({
+				"opacity" : 1
+			})
+			$(window).onLoad($("#transitiondiv").animate({"opacity" : 0}))
+		</script>
 		<meta charset="utf-8">
 		<title>OC Activity Hub</title>
 		<meta name="robots" content="index, follow">
 		<meta name="description" content="Just a test for the animations">
 		<link rel="shortcut icon" href=".png">
 		<link rel="stylesheet" type="text/css" href="css/bubble.css">
-		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="javascript/AB.js"></script>
         <script src="javascript/Animationjs.js"></script>
         <script src="javascript/sportsjs.js"></script>
 	</head>
 	<body id="main" class="mainbody" onLoad="thing()">
-        <div class="transitiondiv">
+        <div id="transitiondiv">
         </div>
 		<div id="screenwarn">
 			Your screen size is less than 820 pixels in width. All animations have stopped. For optimal quality go to a larger screen
@@ -55,8 +61,8 @@
 		<div id="year78pos">
 	        <a onClick="year78()" class="year78Link" href="year78.html">
 				<div id="year78bubble" class="year78bob noClick bubble">
-					<div id="sporttext">
-						<span id="sportspan">Junior</span>
+					<div id="year78text">
+						<span id="year78span">Junior</span>
 					</div>
 				</div>
             </a>

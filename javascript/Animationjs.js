@@ -43,7 +43,7 @@ function sporttran(){
 
 function sportshide(){
 	$("#logbubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 	
 	$(".bobing").css({
@@ -51,11 +51,11 @@ function sportshide(){
 	})
 	
 	$("#knowbubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 
 	$("#year78bubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 }
 
@@ -111,15 +111,15 @@ function knowtran(){
 
 function knowhide(){
 	$("#logbubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 	
 	$(".bobing").css({
-		"visibility" : "hidden"	
+		"display" : "none"	
 	})
 	
 	$("#sportbubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 
 }
@@ -176,7 +176,7 @@ function year78tran(){
 
 function year78hide(){
 	$("#logbubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 	
 	$(".bobing").css({
@@ -184,11 +184,11 @@ function year78hide(){
 	})
 	
 	$("#knowbubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 
 	$("#year78bubble").css({
-		"visibilty" : "hidden"
+		"display" : "none"
 	})
 }
 
