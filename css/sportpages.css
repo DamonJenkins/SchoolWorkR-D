@@ -24,11 +24,11 @@ body, html {
 }
 
 #pagefade {
-	-webkit-animation: login 8s;
-    -moz-animation: login 8s;
-    -ms-animation: login 8s;
-    -o-animation: login 8s; 
-    animation: login 8s;
+	-webkit-animation: login 2s;
+    -moz-animation: login 2s;
+    -ms-animation: login 2s;
+    -o-animation: login 2s; 
+    animation: login 2s;
 }
 
 @keyframes login {
@@ -66,31 +66,31 @@ body, html {
 
 @keyframes leftin {
     0% {}
-    100%   {}
+    100% {}
 }
 
 @-moz-keyframes leftin {
-    0% { }
-    100%   {}
+    0% {}
+    100% {}
 }
 
 @-webkit-keyframes leftin {
-    0% {opacity: 0;}
-    100%   {opacity: 1;}
+    0% {}
+    100% {}
 }
 
 @-ms-keyframes leftin {
-    0% {opacity: 0;}
-    100%   {opacity: 1;}
+    0% {}
+    100% {}
 }
 
 @-o-keyframes leftin {
-    0% {opacity: 0;}
-    100%   {opacity: 1;}
+    0% {}
+    100% {}
 }
 
 
-#footballtitle {
+#sporttitle {
 	font-size: 1.7em;
 	font-weight: bolder;
 }
@@ -141,7 +141,7 @@ a#backhome:hover {
 	font-size: 1.1em
 }
 
-#footballbody {
+#sportbody {
 	padding:15px 15%;
 	font-family: "Raleway", sans-serif;
 	font-weight: 800;
